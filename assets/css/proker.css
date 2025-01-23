@@ -34,7 +34,7 @@ svg {
 
 /* BREADCRUMBS */
 .breadcrumbs {
-    padding: .8rem 1rem;
+    padding: .8rem;
     margin: 1rem 2rem;
     display: flex;
     gap: .8rem;
@@ -60,49 +60,28 @@ svg {
     color: #A1A2AB;
 }
 
-/* HEADER */
-header {
-    padding: 1rem 1.5rem;
-    margin: 2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    background-color: #FFFFFF;
-    border-radius: 1rem;
-}
-
-header h1 {
-    font-size: clamp(2rem, 5vw, 3.5rem);
-    font-weight: 500;
-    line-height: 1;
-}
-
-header p {
-    color: #AAAAAA;
-}
-
 /* MAIN */
-.sambutan-main {
+.proker-main {
     margin: 2rem;
     display: flex;
     gap: 2rem;
 }
 
-.sambutan-main hr {
+.proker-main hr {
     border: none;
     border-top: 1px solid #E1E2EB;
 }
 
 /* MAIN | LEFT */
-.sambutan-main .left {
+.proker-main .left {
     width: 70%;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.sambutan-main .left .content {
-    padding: 1rem 1.5rem;
+.proker-main .left .content {
+    padding: 1.5rem 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -111,22 +90,27 @@ header p {
     border-radius: 1rem;
 }
 
-.sambutan-main .left .content h2 {
+.proker-main .left .content h2 {
     font-size: clamp(1.6rem, 5vw, 2rem);
     font-weight: 500;
     line-height: 1;
 }
 
-.sambutan-main .left .content img {
+/* ini bagian mana ? */
+.proker-main .left .content img {
     width: 40%;
-    background-color: #4A1B31;
+    /* background-color: #4A1B31; */
     border-radius: 1rem;
 }
-.sambutan-main .left .content img.proker-image {
+.proker-main .left .content img.proker-image {
     width: 100%;
 }
+.proker-main .left .content img.proker-border {
+    border: 1px solid #4A1B31;
+    box-shadow: 2.5px 2.5px 0 0 #4A1B31;
+}
 
-.sambutan-main .left .content strong {
+.proker-main .left .content strong {
     display: inline-block;
     padding: .2rem 1.2rem;
     font-weight: normal;
@@ -134,7 +118,7 @@ header p {
     border: 1.4px solid var(--peach);
     border-radius: 100px;
 }
-.sambutan-main .left .content strong.terlaksana {
+.proker-main .left .content strong.terlaksana {
     display: inline-block;
     padding: .2rem 1.2rem;
     font-weight: normal;
@@ -142,7 +126,7 @@ header p {
     border: 1.4px solid #00D000;
     border-radius: 100px;
 }
-.sambutan-main .left .content strong.sub-proker {
+.proker-main .left .content strong.sub-proker {
     display: inline-block;
     padding: .2rem 1.2rem;
     font-weight: normal;
@@ -151,55 +135,55 @@ header p {
     border-radius: 100px;
 }
 
-.sambutan-main .left .content .content-text {
+.proker-main .left .content .content-text {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-.sambutan-main .left .content .content-text th {
+.proker-main .left .content .content-text th {
     padding: 5px;
     color: var(--peach);
     vertical-align: top;
 }
-.sambutan-main .left .content .content-text td {
+.proker-main .left .content .content-text td {
     padding: 5px;
 }
 
-.sambutan-main .left .content .proker-wrap {
+.proker-main .left .content .proker-wrap {
     display: flex;
     flex-direction: column;
     gap: 3rem;
 }
 
-.sambutan-main .left .content .proker-wrap .proker {
+.proker-main .left .content .proker-wrap .proker {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
 }
 
-.sambutan-main .left .content .proker-wrap .proker-collab {
+.proker-main .left .content .proker-wrap .proker-collab {
     display: flex;
     flex-direction: column;
     gap: 3rem;
 }
 
-.sambutan-main .left .content .proker-wrap .proker-collab .collab {
+.proker-main .left .content .proker-wrap .proker-collab .collab {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
 /* MAIN | RIGHT */
-.sambutan-main .right {
+.proker-main .right {
     width: 30%;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.sambutan-main .right .content {
+.proker-main .right .content {
     padding: 2rem 1.5rem;
     display: flex;
     flex-direction: column;
@@ -209,26 +193,26 @@ header p {
     border-radius: 1rem;
 }
 
-.sambutan-main .right .content p {
+.proker-main .right .content p {
     color: var(--light-peach);
 }
 
-.sambutan-main .right .content a {
+.proker-main .right .content a {
     padding: 4px 1rem;
     color: #F1F2FB;
     background-color: #FFB79266;
     border-radius: 100px;
     transition: .2s ease-in-out;
 }
-.sambutan-main .right .content a:hover {
+.proker-main .right .content a:hover {
     color: #4A1B31;
     background-color: var(--light-peach);
 }
-.sambutan-main .right .content a:hover > i {
+.proker-main .right .content a:hover > i {
     color: #4A1B31;
 }
 
-.sambutan-main .right .content i {
+.proker-main .right .content i {
     color: #F1F2FB;
     transition: .2s ease-in-out;
 }
@@ -247,17 +231,8 @@ header p {
         padding: .1rem .8rem;
     }
 
-    /* HEADER */
-    header {
-        padding: .5rem 1rem;
-        margin: 1rem 10px;
-        display: flex;
-        gap: .5rem;
-        border-radius: .5rem;
-    }
-
     /* MAIN */
-    .sambutan-main {
+    .proker-main {
         margin: 10px;
         display: flex;
         gap: 1rem;
@@ -265,43 +240,43 @@ header p {
     }
 
     /* MAIN | LEFT */
-    .sambutan-main .left {
+    .proker-main .left {
         width: 100%;
     }
 
-    .sambutan-main .left .content {
+    .proker-main .left .content {
         border-radius: .5rem;
     }
 
-    .sambutan-main .left .content img {
+    .proker-main .left .content img {
         width: 100%;
     }
 
-    .sambutan-main .left .content strong.sub-proker {
+    .proker-main .left .content strong.sub-proker {
         margin: .3rem 0;
     }
 
-    .sambutan-main .left .content .proker-wrap {
+    .proker-main .left .content .proker-wrap {
         display: flex;
         flex-direction: column;
         gap: 2rem;
     }
 
     /* MAIN | RIGHT */
-    .sambutan-main .right {
+    .proker-main .right {
         width: 100%;
         display: flex;
         flex-direction: column;
         gap: 1rem;
     }
 
-    .sambutan-main .right .content {
+    .proker-main .right .content {
         border-radius: .5rem;
     }
 }
 
 @media (min-width: 576px) {
-    .sambutan-main .left .content strong.sub-proker {
+    .proker-main .left .content strong.sub-proker {
         margin: .3rem 0;
     }
 }

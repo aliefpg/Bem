@@ -71,7 +71,7 @@ header img {
 
 /* MAIN */
 /* MAIN | SAMBUTAN */
-main .sambutan {
+.index-main .sambutan {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,31 +79,31 @@ main .sambutan {
     background: linear-gradient(to right, royalblue, royalblue, royalblue, royalblue, skyblue);
 }
 
-main .sambutan img {
+.index-main .sambutan img {
     width: 18rem;
     opacity: .9;
 }
 
-main .sambutan .sambutan-text {
+.index-main .sambutan .sambutan-text {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-main .sambutan .sambutan-text h2 {
+.index-main .sambutan .sambutan-text h2 {
     font-size: clamp(1.5rem, 5vw, 3rem);
     font-weight: 500;
     line-height: 1;
     color: #FFFFFF;
 }
 
-main .sambutan .sambutan-text a {
+.index-main .sambutan .sambutan-text a {
     padding: 7px 30px;
     color: white;
     border: 1px solid #FFFFFF;
     border-radius: 100px;
 }
-main .sambutan .sambutan-text a:hover {
+.index-main .sambutan .sambutan-text a:hover {
     color: royalblue;
     background-color: #FFFFFF;
 }
@@ -125,31 +125,31 @@ main .sambutan .sambutan-text a:hover {
 
     /* MAIN */
     /* MAIN | SAMBUTAN */
-    main .sambutan {
+    .index-main .sambutan {
         padding-top: 1.5rem;
         display: flex;
         flex-direction: column;
         background: royalblue;
     }
 
-    main .sambutan .sambutan-text {
+    .index-main .sambutan .sambutan-text {
         order: 1;
         display: flex;
         gap: .5rem;
     }
-    main .sambutan .sambutan-image {
+    .index-main .sambutan .sambutan-image {
         order: 2;
     }
 
-    main .sambutan img {
+    .index-main .sambutan img {
         width: 12rem;
     }
 
-    main .sambutan .sambutan-text {
+    .index-main .sambutan .sambutan-text {
         text-align: center;
     }
 
-    main .sambutan .sambutan-text a {
+    .index-main .sambutan .sambutan-text a {
         padding: 2px 20px;
         color: white;
         border: 1px solid #FFFFFF;

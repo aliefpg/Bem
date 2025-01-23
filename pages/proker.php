@@ -1,47 +1,20 @@
 <?php 
-$title = "Sambutan - BEM STIKOM CKI";
+$title = "Program Kerja - BEM STIKOM CKI";
 include '../meta.php';
 include "../includes/navbar.php";
 ?>
 
 <body>
-
     <div class="breadcrumbs">
         <p><a href="<?= $basePath; ?>index.php">Home</a></p>
         <span>|</span>
-        <p class="breadcrumbs-active">Sambutan</p>
+        <p class="breadcrumbs-active">Tentang</p>
+        <span>|</span>
+        <p class="breadcrumbs-active">Program Kerja</p>
     </div>
 
-    <header>
-        <h1>Sambutan dari Presiden dan Wakil Presiden Mahasiswa STIKOM CKI Kabinet Dharma Satvavira Dialektika</h1>
-        <p>Kamis, 20 Novemer 2024</p>
-    </header>
-
-    <main class="sambutan-main">
+    <main class="proker-main">
         <div class="left">
-            <!-- SAMBUTAN PRESIDEN MAHASISWA -->
-            <div class="content">
-                <h2>Danendra Satriyohadi Notonegoro</h2>
-                <img src="../assets/images/ketuwakil/presma-raja-transparent.png" alt="Presiden Mahasiswa | Danendra Satriyohadi Notonegoro">
-                <strong>Presiden Mahasiswa</strong>
-                <div class="content-text">
-                    <p>Salam Perubahan!</p>
-                    <p>Mahasiswa sekalian, di tangan kita, perubahan adalah sebuah kepastian. Dalam setiap langkah dan suara yang kita lantangkan, terletak tanggung jawab besar untuk masa depan yang kita cita-citakan. Bersama, kita adalah kekuatan yang tak tergoyahkan—sebuah bara yang terus menyala, membakar semangat untuk terus belajar, bergerak, dan mengabdi.</p>
-                    <p>Sebagai Presiden Mahasiswa, saya berdiri di sini bukan hanya sebagai pemimpin, tetapi sebagai kawan seperjuangan. Mari jadikan BEM ini bukan sekedar organisasi, melainkan sebuah ruang hidup, tempat kita memupuk ide-ide segar, memperjuangkan aspirasi, dan bersama-sama menciptakan perubahan nyata. Karena di balik setiap kunjungan dan aksi kita, terukir sejarah yang akan diwariskan.</p>
-                    <p>Kepada setiap jiwa yang haus akan kemajuan, teruslah bergerak dan menginspirasi. Hidup Mahasiswa!</p>
-                </div>
-            </div>
-            <!-- SAMBUTAN | WAKIL PRESIDEN MAHASISWA -->
-            <div class="content">
-                <h2>Rafi Bowo Raharjo</h2>
-                <img src="../assets/images/ketuwakil/wapresma-bowo-transparent.png" alt="Wakil Presiden Mahasiswa | Rafi Bowo Raharjo">
-                <strong>Wakil Presiden Mahasiswa</strong>
-                <div class="content-text">
-                    <p>Selamat datang di website resmi Badan Eksekutif Mahasiswa STIKOM Cipta Karya Informatika tahun 2024/2025! Kami sangat bangga dan bersemangat menyambut Anda di sini.</p>
-                    <p>Sebagai wakil ketua BEM, kami berkomitmen untuk menghadirkan lingkungan kampus yang dinamis, inspiratif, dan mendukung pengembangan potensi setiap mahasiswa. Website ini adalah wujud dari komitmen kami untuk keterbukaan informasi dan sebagai sarana interaksi antara BEM, mahasiswa, dan seluruh civitas akademika STIKOM Cipta Karya Informatika.</p>
-                    <p>Di sini, Anda akan menemukan berbagai informasi mengenai kegiatan, program kerja, serta wadah untuk menyalurkan ide dan aspirasi. Mari kita bersama-sama menciptakan suasana kampus yang produktif, kolaboratif, dan penuh inovasi untuk STIKOM Cipta Karya Informatika yang lebih maju.</p>
-                </div>
-            </div>
             <!-- VISI & MISI -->
             <div class="content">
                 <h2>Visi & Misi</h2>
@@ -92,11 +65,11 @@ include "../includes/navbar.php";
                     <!-- PROKER | ADKESMA CKI --><hr>
                     <div class="proker">
                         <div class="proker-tags">
-                            <strong>Adkesma CKI</strong>
+                            <strong>Adkesmas CKI</strong>
                             <strong class="terlaksana">Terlaksana</strong>
                         </div>
                         <p>Advokasi dan Kesejahteraan Mahasiswa</p>
-                        <img src="<?= $basePath; ?>assets/images/bem/proker-adkesma.png" alt="Adkesma CKI">
+                        <img src="<?= $basePath; ?>assets/images/bem/proker-adkesma.png" alt="Adkesma CKI" class="proker-border">
                         <div class="content-text">
                             <table>
                                 <tr>
