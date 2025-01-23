@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Manrope';
+    list-style: none;
+}
+*::selection {
+    background-color: #262950;
+}
+
+body {
+    background-color: #00061A;
+}
+
+/* Header */
+header {
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(45, 45, 45, 0.5);
+    backdrop-filter: blur(20px);
+}
+
+header .headLogo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+header .headLogo img {
+    width: 30px;
+    margin-right: 15px;
+}
+
+header nav  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+header nav a {
+    padding: 20px 0;
+    font-weight: 600;
+    color: #CCC;
+    transition: .2s ease-in-out;
+}
+header nav a:hover {
+    color: #4169E1;
+}
+header nav a.active {
+    color: #4169E1;
+}
+
+header nav i {
+    margin-left: 5px;
+    font-size: 10px;
+    vertical-align: middle;
+}
+
+header nav .navDropDown:hover .navD2Content {
+    display: block;
+}
+
+header nav .navD2Content {
+    margin-top: 12.5px;
+    display: none;
+    position: absolute;
+    background-color: #00061A;
+    border: 1px solid #666;
+}
+
+header nav .navD2Content a {
+    display: flex;
+    padding: 8px 20px;
+}
+header nav .navD2Content a:hover {
+    background-color: #171A24;
+}
+
+
+/* Main */
+main {
+    padding: 40px 50px;
+    background-color: #171A24;
+}
+
+main .eventNavigasi {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+main .eventNavigasi a {
+    color: #AAA;
+    transition: .2s ease-in-out;
+}
+main .eventNavigasi a:hover {
+    color: #FFF;
+}
+
+main .eventNavigasi i {
+    margin-right: 5px;
+}
+
+main .eventNavigasi span {
+    cursor: default;
+    color: #AAA;
+}
+
+main .eventNavigasi p {
+    color: #FFF;
+}
+
+main .event {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+main .event h2 {
+    font-size: 2.5rem;
+    color: #FFF;
+}
+
+main .event .eventMendatang {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main .event .eventMendatang .eventDate iframe {
+    width: 100%;
+    border-radius: 4px;
+}
+
+main .event .eventMendatang .eventNotes {
+    padding: 10px 20px;
+    border: 1.5px solid #666;
+    border-radius: 4px;
+}
+
+main .event .eventMendatang .eventNotes p {
+    color: #AAA;
+    line-height: 1.6;
+}
+
+main .event .eventMendatang .eventNotes a {
+    color: #4169E1;
+    text-decoration: underline;
+    transition: .2s ease-in-out;
+}
+main .event .eventMendatang .eventNotes a:hover {
+    color: #82A1FF;
+}
+
+main .event .eventTerlaksana .eventDokumentasi {
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+main .event .eventTerlaksana .eventDokumentasi img {
+    width: 120px;
+    color: #FFF;
+}
+
+main .event .eventTerlaksana .eventDokumentasi p {
+    color: #AAA;
+    font-size: 1.5rem;
+}
+
+
+/* Footer */
+footer {
+    padding: 100px 50px 15px 50px;
+    background-color: rgba(45, 45, 45, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+footer .footWrap {
+    display: flex;
+}
+
+footer .footLogo {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer .footLogo p {
+    color: #AAA;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+footer .footLogo .footLogoPict {
+    cursor: default;
+    display: flex;
+    align-items: center;
+}
+
+footer .footLogo .footLogoPict h2 {
+    color: #FFF;
+}
+
+footer .footLogoPict img {
+    width: 30px;
+    margin-right: 15px;
+}
+
+footer .footLinks {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+footer .footLinks .medSos {
+    cursor: default;
+    color: #FFF;
+}
+
+footer .footLinks .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+footer .footLinks a {
+    color: #CCC;
+    transition: .2s ease-in-out;
+}
+footer .footLinks a:hover {
+    color: #4169E1;
+}
+
+footer .footLinks i {
+    color: #4169E1;
+}
+
+footer .footLinks sup {
+    cursor: default;
+    color: #4169E1;
+    font-size: 10px;
+    font-style: italic;
+}
+
+footer .footHakCipta {
+    padding: 20px 0;
+    margin-top: 100px;
+    border-top: 1px solid #666;
+}
+
+footer .footHakCipta p {
+    cursor: default;
+    color: #AAA;
+    font-size: 14px;
+}
+
+footer .footHakCipta a {
+    color: #FFF;
+    font-weight: 500;
+    transition: .2s ease-in-out;
+}
+footer .footHakCipta a:hover {
+    color: #4169E1;
+}
