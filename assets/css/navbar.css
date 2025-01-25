@@ -39,7 +39,7 @@ nav {
     position: sticky;
     width: 100%;
     height: 5rem;
-    padding: 0 2rem;
+    padding: 1rem 2rem;
     display: flex;
     align-items: center;
     gap: 1.5rem;
@@ -79,7 +79,7 @@ nav .active {
 }
 
 nav .nav-d {
-    cursor: default;
+    cursor: pointer;
     display: flex;
     align-items: center;
 }

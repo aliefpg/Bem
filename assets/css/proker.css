@@ -56,7 +56,7 @@ svg {
 }
 
 .breadcrumbs-active {
-    cursor: default;
+    cursor: pointer;
     color: #A1A2AB;
 }
 
@@ -99,7 +99,7 @@ svg {
 /* ini bagian mana ? */
 .proker-main .left .content img {
     width: 40%;
-    /* background-color: #4A1B31; */
+    background-color: #4A1B31;
     border-radius: 1rem;
 }
 .proker-main .left .content img.proker-image {

@@ -28,12 +28,13 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
                 <ul class="nav-dropdown-content">
                     <li><a href="<?= $basePath; ?>pages/proker.php">Program Kerja</a></li>
                     <li><a href="<?= $basePath; ?>pages/filosofi.php">Filosofi Logo</a></li>
+                    <li><a href="<?= $basePath; ?>pages/Timeline.php">Timeline</a></li>
                 </ul>
             </ul>
             <ul class="nav-dropdown">
                 <li><a class="nav-d">Struktur Organisasi<svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#000000"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg></a></li>
                 <ul class="nav-dropdown-content">
-                    <li><a href="">Sekretaris</a></li>
+                    <li><a href="kementrian.php">Sekretaris</a></li>
                     <li><a href="">Bendahara</a></li>
                     <li><a href="">Humas</a></li>
                     <li><a href="">Adkesma</a></li>
@@ -64,6 +65,7 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
                     <ul class="sidebar-dropdown-content">
                         <li><a href="<?= $basePath; ?>pages/proker.php">Program Kerja</a></li>
                         <li><a href="<?= $basePath; ?>pages/filosofi.php">Filosofi Logo</a></li>
+                        <li><a href="<?= $basePath; ?>pages/Timeline.php">Timeline</a></li>
                     </ul>
                 </ul>
                 <ul class="sidebar-dropdown">

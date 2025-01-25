@@ -14,7 +14,7 @@ include "../includes/navbar.php";
     </div>
 
     <main class="proker-main">
-        <div class="left">
+    <div class="left">
             <!-- VISI & MISI -->
             <div class="content">
                 <h2>Visi & Misi</h2>
@@ -46,7 +46,7 @@ include "../includes/navbar.php";
             </div>
             <!-- PROGRAM KERJA -->
             <div class="content">
-                <h2>Program Kerja</h2>
+                <h2>Paswa</h2>
                 <div class="proker-wrap">
                     <!-- PROKER | PASWA -->
                     <div class="proker">
@@ -63,12 +63,12 @@ include "../includes/navbar.php";
                         <img class="proker-image" src="<?= $basePath; ?>assets/images/bem/paswa.jpg" alt="Paswa 2024">
                     </div>
                     <!-- PROKER | ADKESMA CKI --><hr>
-                    <div class="proker">
+                    <div class="content">
+                        <h2>Advokasi dan Kesejahteraan Mahasiswa</h2>
                         <div class="proker-tags">
                             <strong>Adkesmas CKI</strong>
                             <strong class="terlaksana">Terlaksana</strong>
                         </div>
-                        <p>Advokasi dan Kesejahteraan Mahasiswa</p>
                         <img src="<?= $basePath; ?>assets/images/bem/proker-adkesma.png" alt="Adkesma CKI" class="proker-border">
                         <div class="content-text">
                             <table>
@@ -92,21 +92,18 @@ include "../includes/navbar.php";
                         </div>
                     </div>
                     <!-- PROKER | CKI CARES --><hr>
-                    <div class="proker">
+                    <div class="content">
+                        <h2>Cipta Karya Informatika Cares</h2>
                         <div class="proker-tags">
                             <strong>CKI Cares</strong>
                             <strong class="terlaksana">Terlaksana</strong>
                         </div>
-                        <p>Cipta Karya Informatika Cares</p>
                         <p>Kegiatan peduli sosial ketika adanya berita belasungkawa dari keluarga besar STIKOM CKI ataupun berita musibah yang berdampak bagi sekelompok orang atau perorangan dengan bantuan berupa uang tunai ataupun lainnya.</p>
                         <img src="<?= $basePath; ?>assets/images/bem/proker-cki-cares.jpg" alt="CKI Cares">
                     </div>
                     <!-- PROKER | STIKOM COLLABORATION --><hr>
-                    <div class="proker">
-                        <div class="proker-tags">
-                            <strong>STIKOM Collaboration</strong>
-                        </div>
-                        <p>Program Kerja Sama antar Civitas STIKOM CKI (BEM, UKM dan KAMPUS) ataupun Kampus lain.</p>
+                    <div class="content">
+                        <h2>Seminar IT: Pemanfaatan Teknologi AI dalam Perkuliahan</h2>
                         <!-- PROKER COLLAB WRAP -->
                         <div class="proker-collab">
                             <!-- PROGRAM KERJA | SEMINAR IT -->
@@ -116,6 +113,7 @@ include "../includes/navbar.php";
                                     <strong class="sub-proker">Seminar IT</strong>
                                     <strong class="terlaksana">Terlaksana</strong>
                                 </div>
+                                <p>Program Kerja Sama antar Civitas STIKOM CKI (BEM, UKM dan KAMPUS) ataupun Kampus lain.</p>
                                 <p>Seminar IT: Pemanfaatan Teknologi AI dalam Perkuliahan</p>
                                 <p>
                                     📅 Tanggal: 18 Januari 2025
@@ -125,7 +123,7 @@ include "../includes/navbar.php";
                                     📍 Tempat: Aula Kampus STIKOM CKI
                                 </p>
                                 <img class="proker-image" src="<?= $basePath; ?>assets/images/bem/proker-seminar-it.jpg" alt="Seminar IT">
-                                <img class="proker-image" src="<?= $basePath; ?>assets/images/bem/proker-seminar-it-bem.jpg" alt="Seminar IT">
+                                <img class="proker-image" src="<?= $basePath; ?>assets/images/bem/seminar.JPG" alt="Seminar IT">
                             </div>
                             <!-- PROGRAM KERJA | DONOR DARAH -->
                             <div class="collab">

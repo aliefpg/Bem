@@ -92,6 +92,21 @@ include "../includes/navbar.php";
             <!-- FILOSOFI WARNA LOGO -->
             <div class="content">
                 <h2>Filosofi Warna Logo</h2>
+                <div class="logo-wrapper">
+                    <div class="logo-image"><img src="../assets/images/logo/logobem-home.png" alt="Logo BEM"></div>
+                    <div class="logo-warna">
+                        <!-- WARNA LOGO | PEACH -->
+                        <div class="warna">
+                            <img src="../assets/images/logo/logo-warna-peach.png" alt="Filosofi Warna Logo Peach">
+                            <p>Warna gradasi peach berfokus pada hubungan antar manusia, inovasi, dan pendekatan yang inklusif. Warna ini mencerminkan keseimbangan antara kreativitas dan keterbukaan, serta membawa kesan yang menyenangkan dan positif.</p>
+                        </div>
+                        <!-- WARNA LOGO | PURPLE -->
+                        <div class="warna">
+                            <img src="../assets/images/logo/logo-warna-purple.png" alt="Filosofi Warna Logo Peach">
+                            <p>Kombinasi gradasi ungu dan putih mengharapkan organisasi yang berwawasan luas, transparan dan memiliki integritas tinggi sekaligus tetap kreatif dan visioner.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="right">

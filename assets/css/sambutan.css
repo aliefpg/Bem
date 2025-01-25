@@ -56,7 +56,7 @@ svg {
 }
 
 .breadcrumbs-active {
-    cursor: default;
+    cursor: pointer;
     color: #A1A2AB;
 }
 
