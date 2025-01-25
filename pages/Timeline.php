@@ -4,7 +4,7 @@ include "../includes/navbar.php";
 ?>
 
 <body>
-    <h1>Timeline Kegiatan BEM STIKOM CKI</h1>
+    <h1 class="time">Timeline Kegiatan BEM STIKOM CKI</h1>
 
     <div class="timeline">
     <?php
