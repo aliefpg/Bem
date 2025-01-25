@@ -20,7 +20,7 @@ Website resmi **Badan Eksekutif Mahasiswa (BEM)** yang dirancang untuk memberika
 ## Teknologi yang Digunakan
 
 - **Frontend**: PHP
-- **Deployment**: Vercel,.
+- **Deployment**: -.
 
 ## Cara Menjalankan Proyek
 
