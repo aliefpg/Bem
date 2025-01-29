@@ -20,6 +20,7 @@ Website resmi **Badan Eksekutif Mahasiswa (BEM)** yang dirancang untuk memberika
 ## Teknologi yang Digunakan
 
 - **Frontend**: PHP
+- **Deployment**: -.
 
 ## Cara Menjalankan Proyek
 
@@ -43,6 +44,7 @@ Website resmi **Badan Eksekutif Mahasiswa (BEM)** yang dirancang untuk memberika
   - [x] **Depkominfo**
   - [x] **Regional UKM**
   - [x] **Timeline**
+
 
 ## Kontributor
 Dikembangkan oleh **AliefPG** dan **ramdaniarvianto** untuk BEM STIKOM CKI.
