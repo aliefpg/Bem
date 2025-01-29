@@ -34,12 +34,11 @@ svg {
 
 /* BREADCRUMBS */
 .breadcrumbs {
-    padding: .8rem;
-    margin: 1rem 2rem;
+    padding: .8rem 2rem;
+    margin: 0;
     display: flex;
     gap: .8rem;
     background-color: #FFFFFF;
-    border-radius: 10px;
 }
 
 .breadcrumbs a {
@@ -56,7 +55,7 @@ svg {
 }
 
 .breadcrumbs-active {
-    cursor: pointer;
+    cursor: default;
     color: #A1A2AB;
 }
 
@@ -81,7 +80,7 @@ svg {
 }
 
 .proker-main .left .content {
-    padding: 1.5rem 1.5rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -95,8 +94,12 @@ svg {
     font-weight: 500;
     line-height: 1;
 }
+.proker-main .left .content h3 {
+    font-size: clamp(1.4rem, 5vw, 1.6rem);
+    font-weight: 500;
+    line-height: 1;
+}
 
-/* ini bagian mana ? */
 .proker-main .left .content img {
     width: 40%;
     background-color: #4A1B31;
@@ -133,6 +136,9 @@ svg {
     color: var(--light-peach);
     border: 1.4px solid var(--light-peach);
     border-radius: 100px;
+}
+.proker-main .left .content b {
+    font-weight: 600;
 }
 
 .proker-main .left .content .content-text {
@@ -183,6 +189,11 @@ svg {
     gap: 2rem;
 }
 
+.proker-main .right .sticky {
+    top: 7rem;
+    position: sticky;
+}
+
 .proker-main .right .content {
     padding: 2rem 1.5rem;
     display: flex;
@@ -222,7 +233,6 @@ svg {
     /* BREADCRUMBS */
     .breadcrumbs {
         padding: .5rem .4rem;
-        margin: 10px;
         display: flex;
         gap: .4rem;
     }
@@ -233,9 +243,9 @@ svg {
 
     /* MAIN */
     .proker-main {
-        margin: 10px;
+        margin: 2rem 1rem;
         display: flex;
-        gap: 1rem;
+        gap: 2rem;
         flex-direction: column;
     }
 
@@ -245,6 +255,7 @@ svg {
     }
 
     .proker-main .left .content {
+        padding: 1rem;
         border-radius: .5rem;
     }
 

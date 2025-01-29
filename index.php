@@ -6,17 +6,17 @@ include "includes/navbar.php";
 
 <body>
 <header>
-        <h1>
+<h1>
             Selamat Datang,<br>
             <span>
                 Website BEM STIKOM CKI <br>
-                <span class="bem">Kabinet Dharma Satvavira Dialektika</span>
+                Kabinet Dharma Satvavira Dialektika
             </span>
         </h1>
         <img src="assets/images/bem/raker.png" alt="BEM STIKOM CKI 2024/2025">
     </header>
 
-    <main>
+    <main class="index-main">
         <div class="jumbotron">
             <div class="jumbotron-image">
                 <img src="assets/images/ketuwakil/rajabowo.png" alt="Presiden dan Wakil Presiden Mahasiswa BEM STIKOM CKI">
@@ -63,7 +63,7 @@ include "includes/navbar.php";
         <div class="kementerian">
             <div class="kementerian-head">
                 <h2>Kementerian</h2>
-                <p>Kementerian di Kabinet Dharma Satvavira Dialektika memiliki perang penting dengan tugas, fokus, program kerja, dan visi misi tersendiri.</p>
+                <p>Kementerian di Kabinet Dharma Satvavira Dialektika yang memiliki peran penting dengan tugas, fokus, program kerja, dan visi misi tersendiri.</p>
             </div>
             <div class="kementerian-divisi">
                 <!-- SEKRETARIS -->

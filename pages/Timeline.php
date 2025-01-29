@@ -60,5 +60,6 @@ include "../includes/navbar.php";
         delay: 300
     });
     </script>
+    <?php include "../includes/footer.php"; ?>
 </body>
 </html>

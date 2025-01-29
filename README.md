@@ -20,7 +20,6 @@ Website resmi **Badan Eksekutif Mahasiswa (BEM)** yang dirancang untuk memberika
 ## Teknologi yang Digunakan
 
 - **Frontend**: PHP
-- **Deployment**: Vercel,.
 
 ## Cara Menjalankan Proyek
 
@@ -37,13 +36,13 @@ Website resmi **Badan Eksekutif Mahasiswa (BEM)** yang dirancang untuk memberika
 
 ## Rencana Pengembangan
 - **Struktur Organisasi**: Menambahkan isi dari menu di bawah:
-  - [ ] **Sekretaris**
-  - [ ] **Bendahara**
-  -  [ ] **Humas**
-  - [ ] **Adkesma**
-  - [ ] **Depkominfo**
-  - [ ] **Regional UKM**
-
+  - [x] **Sekretaris**
+  - [x] **Bendahara**
+  -  [x] **Humas**
+  - [x] **Adkesma**
+  - [x] **Depkominfo**
+  - [x] **Regional UKM**
+  - [x] **Timeline**
 
 ## Kontributor
 Dikembangkan oleh **AliefPG** dan **ramdaniarvianto** untuk BEM STIKOM CKI.

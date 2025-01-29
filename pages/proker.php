@@ -6,7 +6,8 @@ include "../includes/navbar.php";
 
 <body>
     <div class="breadcrumbs">
-        <p><a href="<?= $basePath; ?>index.php">Home</a></p>
+        <!-- <p><a href="<?= $basePath; ?>index.php">Home</a></p> -->
+        <p class="breadcrumbs-active">Home</a></p>
         <span>|</span>
         <p class="breadcrumbs-active">Tentang</p>
         <span>|</span>
@@ -14,7 +15,7 @@ include "../includes/navbar.php";
     </div>
 
     <main class="proker-main">
-    <div class="left">
+        <div class="left">
             <!-- VISI & MISI -->
             <div class="content">
                 <h2>Visi & Misi</h2>
@@ -46,7 +47,7 @@ include "../includes/navbar.php";
             </div>
             <!-- PROGRAM KERJA -->
             <div class="content">
-                <h2>Paswa</h2>
+                <h2>Program Kerja</h2>
                 <div class="proker-wrap">
                     <!-- PROKER | PASWA -->
                     <div class="proker">
@@ -63,12 +64,13 @@ include "../includes/navbar.php";
                         <img class="proker-image" src="<?= $basePath; ?>assets/images/bem/paswa.jpg" alt="Paswa 2024">
                     </div>
                     <!-- PROKER | ADKESMA CKI --><hr>
-                    <div class="content">
-                        <h2>Advokasi dan Kesejahteraan Mahasiswa</h2>
+                    <div class="proker">
+                        <h2>Adkesmas CKI</h2>
                         <div class="proker-tags">
                             <strong>Adkesmas CKI</strong>
                             <strong class="terlaksana">Terlaksana</strong>
                         </div>
+                        <p>Advokasi dan Kesejahteraan Mahasiswa</p>
                         <img src="<?= $basePath; ?>assets/images/bem/proker-adkesma.png" alt="Adkesma CKI" class="proker-border">
                         <div class="content-text">
                             <table>
@@ -92,29 +94,41 @@ include "../includes/navbar.php";
                         </div>
                     </div>
                     <!-- PROKER | CKI CARES --><hr>
-                    <div class="content">
-                        <h2>Cipta Karya Informatika Cares</h2>
+                    <div class="proker">
+                        <h2>CKI Cares</h2>
                         <div class="proker-tags">
                             <strong>CKI Cares</strong>
                             <strong class="terlaksana">Terlaksana</strong>
                         </div>
+                        <p>Cipta Karya Informatika Cares</p>
                         <p>Kegiatan peduli sosial ketika adanya berita belasungkawa dari keluarga besar STIKOM CKI ataupun berita musibah yang berdampak bagi sekelompok orang atau perorangan dengan bantuan berupa uang tunai ataupun lainnya.</p>
+                        <!-- CKI CARES - Solidaritas Mahasiswa -->
+                        <h3>CKI Cares - Solidaritas Mahasiswa</h3>
                         <img src="<?= $basePath; ?>assets/images/bem/proker-cki-cares.jpg" alt="CKI Cares">
+                        <!-- CKI CARES - Kebakaran Kemayoran -->
+                        <h3>CKI Cares - Open Donation Kebakaran Kemayoran</h3>
+                        <img src="<?= $basePath; ?>assets/images/bem/proker-cki-cares-2.png" alt="CKI Cares - Open Donasi Kebakaran Kemayoran">
+                        <img class="proker-image" src="../assets/images/bem/cki-cares-kemayoran-1.jpg" alt="CKI Cares - Open Donasi Kebakaran Kemayoran">
+                        <img class="proker-image" src="../assets/images/bem/cki-cares-kemayoran-2.jpg" alt="CKI Cares - Open Donasi Kebakaran Kemayoran">
                     </div>
                     <!-- PROKER | STIKOM COLLABORATION --><hr>
-                    <div class="content">
-                        <h2>Seminar IT: Pemanfaatan Teknologi AI dalam Perkuliahan</h2>
+                    <div class="proker">
+                        <h2>STIKOM Collaboration</h2>
+                        <div class="proker-tags">
+                            <strong>STIKOM Collaboration</strong>
+                        </div>
+                        <p>Program Kerja Sama antar Civitas STIKOM CKI (BEM, UKM dan KAMPUS) ataupun Kampus lain.</p>
                         <!-- PROKER COLLAB WRAP -->
                         <div class="proker-collab">
                             <!-- PROGRAM KERJA | SEMINAR IT -->
                             <div class="collab">
+                                <h2>Seminar IT</h2>
                                 <div class="proker-tags">
                                     <strong>STIKOM Collaboration</strong>
                                     <strong class="sub-proker">Seminar IT</strong>
                                     <strong class="terlaksana">Terlaksana</strong>
                                 </div>
-                                <p>Program Kerja Sama antar Civitas STIKOM CKI (BEM, UKM dan KAMPUS) ataupun Kampus lain.</p>
-                                <p>Seminar IT: Pemanfaatan Teknologi AI dalam Perkuliahan</p>
+                                <p><b>Seminar IT</b>: Pemanfaatan Teknologi AI dalam Perkuliahan</p>
                                 <p>
                                     📅 Tanggal: 18 Januari 2025
                                     <br>
@@ -123,26 +137,40 @@ include "../includes/navbar.php";
                                     📍 Tempat: Aula Kampus STIKOM CKI
                                 </p>
                                 <img class="proker-image" src="<?= $basePath; ?>assets/images/bem/proker-seminar-it.jpg" alt="Seminar IT">
-                                <img class="proker-image" src="<?= $basePath; ?>assets/images/bem/seminar.JPG" alt="Seminar IT">
+                                <img class="proker-image" src="<?= $basePath; ?>assets/images/bem/proker-seminar-it-bem.jpg" alt="Seminar IT">
+                            </div>
+                            <!-- PROGRAM KERJA | STUDI BANDING -->
+                            <div class="collab">
+                                <h2>Studi Banding</h2>
+                                <div class="proker-tags">
+                                    <strong>STIKOM Collaboration</strong>
+                                    <strong class="sub-proker">Studi Banding</strong>
+                                    <strong class="terlaksana">Terlaksana</strong>
+                                </div>
+                                <p>
+                                    <b>BEM STIKOM CKI x BEM IBM ASMI</b>: Kolaborasi dan Sistem Informasi untuk Relasi, Solidaritas, dan Kemajuan Organisasi
+                                </p>
+                                <p>
+                                    📅 Tanggal: 25 Januari 2025
+                                    <br>
+                                    🕒 Waktu: 10:00 - 05:00
+                                    <br>
+                                    📍 Tempat: Aula Kampus STIKOM CKI
+                                </p>
+                                <img class="proker-image" src="<?= $basePath; ?>assets/images/bem/proker-studi-banding.jpg" alt="Studi Banding">
                             </div>
                             <!-- PROGRAM KERJA | DONOR DARAH -->
                             <div class="collab">
+                                <h2>Donor Darah</h2>
                                 <div class="proker-tags">
                                     <strong>STIKOM Collaboration</strong>
                                     <strong class="sub-proker">Donor Darah</strong>
                                 </div>
                                 <img class="proker-image" src="<?= $basePath; ?>assets/images/bem/proker-donor-darah.png" alt="Donor Darah">
                             </div>
-                            <!-- PROGRAM KERJA | STUDI BANDING -->
-                            <div class="collab">
-                                <div class="proker-tags">
-                                    <strong>STIKOM Collaboration</strong>
-                                    <strong class="sub-proker">Studi Banding</strong>
-                                </div>
-                                <img class="proker-image" src="<?= $basePath; ?>assets/images/bem/proker-studi-banding.png" alt="Studi Banding">
-                            </div>
                             <!-- PROGRAM KERJA | BAZAR RAMADHAN -->
                             <div class="collab">
+                                <h2>Bazar Ramdahan</h2>
                                 <div class="proker-tags">
                                     <strong>STIKOM Collaboration</strong>
                                     <strong class="sub-proker">Bazar Ramadhan</strong>
@@ -155,15 +183,18 @@ include "../includes/navbar.php";
             </div>
         </div>
         <div class="right">
-            <div class="content">
-                <p>
-                    Ada undangan, kolaborasi, atau urusan penting sama BEM?
-                    <br>
-                    Langsung aja hubungi Humas!
-                </p>
-                <a href="https://wa.me/6282247963895" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+            <div class="sticky">
+                <div class="content">
+                    <p>
+                        Ada undangan, kolaborasi, atau urusan penting sama BEM?
+                        <br>
+                        Langsung aja hubungi Humas!
+                    </p>
+                    <a href="https://wa.me/6282247963895" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+                </div>
             </div>
         </div>
     </main>
+    <?php include "../includes/footer.php"; ?>
 </body>
 </html>

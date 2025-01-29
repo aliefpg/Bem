@@ -18,7 +18,7 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
     <link rel="stylesheet" href="<?= $basePath; ?>assets/css/filosofi.css">
     <link rel="stylesheet" href="<?= $basePath; ?>assets/css/sambutan.css">
     <link rel="stylesheet" href="<?= $basePath; ?>assets/css/Timeline.css">
-    <link rel="stylesheet" href="<?= $basePath; ?>assets/css/kemen.css">
+    <link rel="stylesheet" href="<?= $basePath; ?>assets/css/kementerian.css">
 
     <!-- Fonts and Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
