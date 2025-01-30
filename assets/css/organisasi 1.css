@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.judul {
+    text-align: center;
+    font-size: 1.7em;
+    margin-top: 2rem;
+}
+.org-chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 2rem;
+}
+
+/* LEVEL 1 */
+.level {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 40px;
+    position: relative;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+/* LEVEL 2 */
+.sub-level{
+    gap: 5rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    position: relative;
+    margin-top: 10.1rem;
+    left: -5rem;
+}
+
+/* LEVEL 3 */
+.sub-level-1{
+    gap: 5rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    position: relative;
+    top: -1.5rem;
+}
+
+/* BENDAHARA */
+.vertikal1 {
+    width: 2px;
+    height: 2.5rem;
+    top: -1.9rem;
+    left: 25%;
+    transform: translateX(-50%);
+    position: absolute;
+    background-color: #000;
+}
+
+.node-kiri {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 10px;
+    position: relative;
+    left: 10rem;
+    margin-top: 0.5rem;
+}
+
+/* STAFF BENDAHARA */
+.vertikal1-1 {
+    width: 2px;
+    height: 2.5rem;
+    top: 5rem;
+    left: 25%;
+    transform: translateX(-50%);
+    position: absolute;
+    background-color: #000;
+}
+.node-kiri-1 {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 10px;
+    position: relative;
+    left: -8.5rem;
+    top: 7.5rem;
+}
+
+/* SEKERTARIAt */
+.vertikal2 {
+    width: 2px;
+    height: 2.5rem;
+    top: -1.9rem;
+    left: 75%;
+    transform: translateX(-50%);
+    position: absolute;
+    background-color: #000;
+}
+.node-kanan {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 10px;
+    position: relative;
+    left: 7.3rem;
+    margin-top: 0.5rem;
+}
+
+/* STAFF SEKERTARIAT */
+.vertikal2-1 {
+    width: 2px;
+    height: 2.5rem;
+    top: 4.9rem;
+    left: 75%;
+    transform: translateX(-50%);
+    position: absolute;
+    background-color: #000;
+}
+.node-kanan-2 {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 10px;
+    position: relative;
+    left: -9.9rem;
+    margin-top: 0.5rem;
+    top: 6.9rem;
+}
+
+/* KOMINFO | ADKESMA */
+.node-kiri-bawah {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 0.6rem;
+    margin-bottom: 1rem;
+    left: 7.6rem;
+}
+/* HUMAS | REGIONAL UKM */
+.node-kanan-bawah {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 10px;
+    position: relative;
+    margin-top: 0.6rem;
+    margin-bottom: 1rem;
+    left: 8.5rem;
+}
+
+/* STAFF KOMINFO */
+.vertikal3-1 {
+    width: 2px;
+    height: 2.6rem;
+    top: -2rem;
+    left: 13%;
+    transform: translateX(-50%);
+    position: absolute;
+    background-color: #000;
+}
+.node-kiri-bawah-1 {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 0.6rem;
+    margin-bottom: 1rem;
+    left: 2.1rem;
+}
+
+/* STAFF ADKESMA */
+.vertikal4-1 {
+    width: 2px;
+    height: 2.6rem;
+    top: -2rem;
+    left: 38.4%;
+    transform: translateX(-50%);
+    position: absolute;
+    background-color: #000;
+}
+.node-kiri-bawah-2 {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 0.6rem;
+    margin-bottom: 1rem;
+    left: 0.6rem;
+}
+
+/* STAFF HUMAS */
+.vertikal5-1 {
+    width: 2px;
+    height: 2.6rem;
+    top: -2rem;
+    left: 63%;
+    transform: translateX(-50%);
+    position: absolute;
+    background-color: #000;
+}
+.node-kanan-bawah-3 {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 0.6rem;
+    margin-bottom: 1rem;
+    left: 1rem;
+}
+
+/* STAFF REGIONAL UKM */
+.vertikal6-1 {
+    width: 2px;
+    height: 2.6rem;
+    top: -2rem;
+    left: 92%;
+    transform: translateX(-50%);
+    position: absolute;
+    background-color: #000;
+}
+.node-kanan-bawah-4 {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 0.6rem;
+    margin-bottom: 1rem;
+    left: 1.5rem;
+}
+
+.ketua {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    position: relative;
+    cursor: pointer;
+}
+.wakil {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    position: relative;
+    margin-top: -2.5rem;
+}
+
+/* Membuat dua baris untuk Ketua dan Andendra */
+.ketua span, .wakil span, 
+.wakil span, .node span, 
+.node-kanan span, .node-kanan-2 span, 
+.node-kiri span, .node-kiri-1 span, 
+.node-kiri-bawah span, .node-kiri-bawah-1 span, 
+.node-kiri-bawah-2 span, .node-kanan-bawah-3 span, 
+.node-kanan-bawah-4 span, .node-kanan-bawah span {
+    display: block;
+}
+.connector {
+    position: absolute;
+    background-color: #000;
+}
+
+.vertical-connector {
+    width: 2px;
+    height: 20.1rem;
+    top: 2.9rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ketua-vertikal{
+    width: 2px;
+    height: 5rem;
+    top: 5.4rem;
+    left: 49.6%;
+    transform: translateX(-50%);
+    position: absolute;
+    background-color: #000;
+}
+
+/* depkominfo */
+.vertikal3 {
+    width: 2px;
+    height: 2.6rem;
+    top: -2rem;
+    left: 20%;
+    transform: translateX(-50%);
+    position: absolute;
+    background-color: #000;
+}
+
+/* Adkesma */
+.vertikal4 {
+    width: 2px;
+    height: 2.6rem;
+    top: -2rem;
+    left: 44.8%;
+    transform: translateX(-50%);
+    position: absolute;
+    background-color: #000;
+}
+
+/* HUMAS */
+.vertikal5 {
+    width: 2px;
+    height: 2.6rem;
+    top: -2rem;
+    left: 70.3%;
+    transform: translateX(-50%);
+    position: absolute;
+    background-color: #000;
+}
+
+/* UKM */
+.vertikal6 {
+    width: 2px;
+    height: 2.6rem;
+    top: -2rem;
+    left: 100%;
+    transform: translateX(-50%);
+    position: absolute;
+    background-color: #000;
+}
+
+.horizontal-connector {
+    height: 2px;
+    width: 50%;
+    top: 5.5rem;
+    left: 25%;
+}
+
+.horizontal-connector-2 {
+    height: 2px;
+    width: 78.8%;
+    top: 23rem;
+    left: 9.6rem;
+}

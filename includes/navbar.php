@@ -30,7 +30,7 @@ $titlebar = "BEM STIKOM CKI " . date("Y");
                 </ul>
             </ul>
             <ul class="nav-dropdown">
-                <li><a href="#" class="nav-d">Struktur Organisasi<svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#000000"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg></a></li>
+                <li><a href="<?= $basePath; ?>pages/organisasi.php" class="nav-d">Struktur Organisasi<svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#000000"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg></a></li>
                 <ul class="nav-dropdown-content">
                     <li><a href="<?= $basePath; ?>pages/sekretaris.php">Sekretaris</a></li>
                     <li><a href="<?= $basePath; ?>pages/bendahara.php">Bendahara</a></li>
@@ -67,7 +67,7 @@ $titlebar = "BEM STIKOM CKI " . date("Y");
                     </ul>
                 </ul>
                 <ul class="sidebar-dropdown">
-                    <li><a href="<?= $basePath; ?>pages/strukturorganisasi.php" class="sidebar-d">Struktur Organisasi <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#000000"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg></a></li>
+                    <li><a href="<?= $basePath; ?>pages/organisasi.php" class="sidebar-d">Struktur Organisasi <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#000000"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg></a></li>
                     <ul class="sidebar-dropdown-content">
                         <li><a href="<?= $basePath; ?>pages/sekretaris.php">Sekretaris</a></li>
                         <li><a href="<?= $basePath; ?>pages/bendahara.php">Bendahara</a></li>

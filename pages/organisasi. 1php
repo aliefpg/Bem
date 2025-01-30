@@ -1,0 +1,113 @@
+<?php 
+include '../meta.php';
+include "../includes/navbar.php";
+?>
+
+<body>
+    <h1 class="judul">PENGURUS BADAN EKSEKUTIF MAHASISWA <br>SEKOLAH TINGGI ILMU KOMPUTER CIPTA KARYA INFORMATIKA PERIODE 2024/2025</h1>
+<div class="org-chart">
+        <div class="level">
+            <div class="ketua">
+                <span>PRESIDEN MAHASISWA</span>
+                <span>Danendra Satriyohadi Notonegoro</span>
+            </div>
+        </div>
+        <div class="ketua-vertikal"></div> <!-- Vertical Connector (Menghubungkan ke Wakil) -->
+        <div class="org-chart">
+            <div class="level">
+                <div class="wakil">
+                    <span>WAKIL PRESIDEN MAHASISWA</span>
+                    <span>Rafi Bowo Raharjo</span>
+                </div>
+            </div>
+            <div class="connector vertical-connector"></div> <!-- Vertical Connector (Menghubungkan ke LEVEL 1,2 DAN 3) -->
+
+            <!-- Level 2: Bendahara dan Sekretaris -->
+            <div class="level">
+                <div class="node-kiri">
+                    <span>KEMENTRIAN BENDAHARA</span>
+                    <span>IRMA NUR NAJWA</span>
+                </div>
+                <div class="vertikal1"></div>
+                <div class="node-kiri-1">
+                    <span>STAFF BENDAHARA</span>
+                    <span>NANDINI LADIVINA SARI</span>
+                </div>
+                <div class="vertikal1-1"></div>
+                <div class="node-kanan">
+                    <span>KEMENTRIAN SEKRETARIAT</span>
+                    <span>SYAHARANI ANANDITA PUTRI</span>
+                </div>
+                <div class="vertikal2"></div>
+                <div class="node-kanan-2">
+                    <span>STAFF SEKRETARIAT</span>
+                    <span>RIFQOTUL QOLBIAH</span>
+                </div>
+                <div class="vertikal2-1"></div>
+            </div>
+
+
+            <!-- Horizontal Connector 1 (Menghubungkan Bendahara dan Sekretaris) -->
+            <div class="connector horizontal-connector"></div>
+
+            <!-- Level 3 -->
+            <div class="sub-level">
+                <div class="node-kiri-bawah">
+                    <span>DEPARTEMEN KOMINFO</span>
+                    <span>DEVHIN DEVARA</span>
+                </div>
+                <div class="vertikal3"></div>
+                <div class="node-kiri-bawah">
+                    <span>KEMENTRIAN ADKESMA</span>
+                    <span>IRGY ACHMAD FAHREZI</span>
+                </div>
+                <div class="node-kanan-bawah">
+                    <span>DEPARTEMEN HUMAS</span>
+                    <span>RIDHA AFIFAH</span>
+                </div>
+                <div class="vertikal4"></div>
+                <div class="vertikal5"></div>
+                <div class="node-kanan-bawah">
+                    <span>DEPARTEMEN REGIONAL UKM</span>
+                    <span>MUHAMMAD RIZKI RIVALDI</span>
+                </div>
+                <div class="vertikal6"></div>
+            </div>
+            
+            <!-- Level 4 -->
+            <div class="sub-level-1">
+                <div class="node-kiri-bawah-1">
+                    <span>STAFF KOMINFO</span>
+                    <span>1.ALIEF PRIMA GANI</span>
+                    <span>2.RAMDANI ARVIANTO</span>
+                    <span>3.FADHILLA SUHENDAR</span>
+                    <span>4.MUHAMMAD AGUS SALAM</span>
+                </div>
+                <div class="vertikal3-1"></div>
+                <div class="node-kiri-bawah-2">
+                    <span>STAFF ADKESMA</span>
+                    <span>1.MARSA RIFQA</span>
+                    <span>2.MUHAMMAD SYAZIDAN</span>
+                    <span>3.SIFA RAHMA JUWITA</span>
+                </div>
+                <div class="vertikal4-1"></div>
+                <div class="node-kanan-bawah-3">
+                    <span>STAFF HUMAS</span>
+                    <span>1.OKVA WULANDARI INDRI AYU</span>
+                    <span>2.MUHAMMAD RIZKY ILHAM</span>
+                </div>
+                <div class="vertikal5-1"></div>
+                <div class="node-kanan-bawah-4">
+                    <span>STAFF REGIONAL UKM</span>
+                    <span>1.ROMI NAUFAL SALAM</span>
+                    <span>2.DEVARA ISBANI YUSUF</span>
+                    <span>3.RAMZI SEMERU SAPUTRA</span>
+                </div>
+                <div class="vertikal6-1"></div>
+            </div>
+            <div class="connector horizontal-connector-2"></div>
+        </div>
+    </div>
+    <?php include "../includes/footer.php"; ?>
+</body>
+</html>

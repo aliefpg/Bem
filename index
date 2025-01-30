@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Struktur Organisasi dengan 2 Garis Horizontal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .org-chart {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+        }
+        .level {
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            margin-bottom: 40px;
+            position: relative;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+
+        .sub-level{
+            gap: 2rem;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 40px;
+            position: relative;
+            margin-top: 2rem;
+        }
+        .node {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            margin: 0 10px;
+            position: relative;
+        }
+
+        .ketua {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+            position: relative;
+            cursor: pointer;
+        }
+        .wakil {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+            position: relative;
+        }
+
+        /* Membuat dua baris untuk Ketua dan Andendra */
+        .ketua span {
+            display: block;
+        }
+        .wakil span {
+            display: block;
+        }
+        .node span{
+            display: block;
+        }
+        .node-kanan span{
+            display: block;
+        }
+        .node-kiri span{
+            display: block;
+        }
+        .connector {
+            position: absolute;
+            background-color: #000;
+        }
+
+        .vertical-connector {
+            width: 2px;
+            height: 13rem;
+            top: 4.5rem;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .ketua-vertikal{
+            width: 2px;
+            height: 4.5rem;
+            top: 4.5rem;
+            left: 50%;
+            transform: translateX(-50%);
+            position: absolute;
+            background-color: #000;
+        }
+
+        .vertikal1 {
+            width: 2px;
+            height: 2.5rem;
+            top: 6.5rem;
+            left: 75%;
+            transform: translateX(-50%);
+            position: absolute;
+            background-color: #000;
+        }
+
+        .vertikal2 {
+            width: 2px;
+            height: 2.5rem;
+            top: 6.5rem;
+            left: 25%;
+            transform: translateX(-50%);
+            position: absolute;
+            background-color: #000;
+        }
+
+        .vertikal3 {
+            width: 2px;
+            height: 2.6rem;
+            top: -2.7rem;
+            left: 8%;
+            transform: translateX(-50%);
+            position: absolute;
+            background-color: #000;
+        }
+        .vertikal4 {
+            width: 2px;
+            height: 2.6rem;
+            top: -2.7rem;
+            left: 29%;
+            transform: translateX(-50%);
+            position: absolute;
+            background-color: #000;
+        }
+        .vertikal5 {
+            width: 2px;
+            height: 2.6rem;
+            top: -2.7rem;
+            left: 71%;
+            transform: translateX(-50%);
+            position: absolute;
+            background-color: #000;
+        }
+        .vertikal6 {
+            width: 2px;
+            height: 2.6rem;
+            top: -2.7rem;
+            left: 91%;
+            transform: translateX(-50%);
+            position: absolute;
+            background-color: #000;
+        }
+
+        .horizontal-connector {
+            height: 2px;
+            width: 50%;
+            top: 6.5rem;
+            left: 25%;
+        }
+
+        .horizontal-connector-2 {
+            height: 2px;
+            width: 83.2%;
+            top: 14.4rem;
+            left: 3.8rem;
+        }
+
+        .node-kanan {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            margin: 0 10px;
+            position: relative;
+            left: 2.1rem;
+        }
+        .node-kiri {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            margin: 0 10px;
+            position: relative;
+            left: -1.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="org-chart">
+        <!-- Level 1: Wakil -->
+        <div class="level">
+            <div class="ketua">
+                <span>Ketua</span>
+                <span>Andendra</span> <!-- Menggunakan span untuk memisahkan baris -->
+            </div>
+        </div>
+        <div class="ketua-vertikal"></div>
+
+        <div class="org-chart">
+            <!-- Level 1: Wakil -->
+            <div class="level">
+                <div class="wakil">
+                    <span>Ketua</span>
+                    <span>Andendra</span> <!-- Menggunakan span untuk memisahkan baris -->
+                </div>
+            </div>
+
+            <!-- Vertical Connector -->
+            <div class="connector vertical-connector"></div>
+
+            <!-- Level 2: Bendahara dan Sekretaris -->
+            <div class="level">
+                <div class="node-kiri">
+                    <span>Ketua</span>
+                    <span>Andendra</span> <!-- Menggunakan span untuk memisahkan baris -->
+                </div>
+                <div class="node-kanan">
+                    <span>Ketua</span>
+                    <span>Andendra</span> <!-- Menggunakan span untuk memisahkan baris -->
+                </div>
+            </div>
+
+            <div class="vertikal1"></div>
+            <div class="vertikal2"></div>
+
+            <!-- Horizontal Connector 1 (Menghubungkan Bendahara dan Sekretaris) -->
+            <div class="connector horizontal-connector"></div>
+
+            <!-- Vertical Connector (Menghubungkan ke level 3) -->
+            <div class="connector vertical-connector-2" style="top: 160px;"></div>
+
+            <!-- Level 3: Kominfo, Seksi, Doksli, Oke, Boss -->
+            <div class="sub-level">
+                <div class="node">
+                    <span>Ketua</span>
+                    <span>Andendra</span>
+                </div>
+                <div class="vertikal3"></div>
+                <div class="node">
+                    <span>Ketua</span>
+                    <span>Andendra</span>
+                </div>
+                <div class="vertikal4"></div>
+                <div class="node">
+                    <span>Ketua</span>
+                    <span>Andendra</span>
+                </div>
+                <div class="node">
+                    <span>Ketua</span>
+                    <span>Andendra</span>
+                </div>
+                <div class="vertikal5"></div>
+                <div class="node">
+                    <span>Ketua</span>
+                    <span>Andendra</span>
+                </div>
+                <div class="vertikal6"></div>
+            </div>
+            <div class="connector horizontal-connector-2"></div>
+        </div>
+    </div>
+</body>
+</html>

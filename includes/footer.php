@@ -45,7 +45,7 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
             <!-- FOOTER LAINNYA -->
             <div class="content foot-content-lainnya">
                 <h4>Lainnya</h4>
-                <a href="#">Struktur Organisasi</a>
+                <a href="<?= $basePath; ?>pages/organisasi.php">Struktur Organisasi</a>
                 <a href="<?= $basePath; ?>pages/Timeline.php" class="timeline-footer">Kegiatan</a>
             </div>
             <!-- FOOTER SOCMED -->

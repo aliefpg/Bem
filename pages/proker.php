@@ -15,7 +15,7 @@ include "../includes/navbar.php";
     </div>
 
     <main class="proker-main">
-        <div class="left">
+    <div class="left">
             <!-- VISI & MISI -->
             <div class="content">
                 <h2>Visi & Misi</h2>
@@ -102,14 +102,22 @@ include "../includes/navbar.php";
                         </div>
                         <p>Cipta Karya Informatika Cares</p>
                         <p>Kegiatan peduli sosial ketika adanya berita belasungkawa dari keluarga besar STIKOM CKI ataupun berita musibah yang berdampak bagi sekelompok orang atau perorangan dengan bantuan berupa uang tunai ataupun lainnya.</p>
-                        <!-- CKI CARES - Solidaritas Mahasiswa -->
-                        <h3>CKI Cares - Solidaritas Mahasiswa</h3>
-                        <img src="<?= $basePath; ?>assets/images/bem/proker-cki-cares.jpg" alt="CKI Cares">
-                        <!-- CKI CARES - Kebakaran Kemayoran -->
-                        <h3>CKI Cares - Open Donation Kebakaran Kemayoran</h3>
-                        <img src="<?= $basePath; ?>assets/images/bem/proker-cki-cares-2.png" alt="CKI Cares - Open Donasi Kebakaran Kemayoran">
-                        <img class="proker-image" src="../assets/images/bem/cki-cares-kemayoran-1.jpg" alt="CKI Cares - Open Donasi Kebakaran Kemayoran">
-                        <img class="proker-image" src="../assets/images/bem/cki-cares-kemayoran-2.jpg" alt="CKI Cares - Open Donasi Kebakaran Kemayoran">
+                        <div class="cki-cares-wrapper">
+                            <div class="cki-cares">
+                                <!-- CKI CARES - Solidaritas Mahasiswa -->
+                                <h3>CKI Cares - Solidaritas Mahasiswa</h3>
+                                <img src="<?= $basePath; ?>assets/images/bem/proker-cki-cares.jpg" alt="CKI Cares">
+                            </div>
+                            <div class="cki-cares">
+                                <!-- CKI CARES - Kebakaran Kemayoran -->
+                                <h3>CKI Cares - Open Donation Kebakaran Kemayoran</h3>
+                                <img src="<?= $basePath; ?>assets/images/bem/proker-cki-cares-2.png" alt="CKI Cares - Open Donasi Kebakaran Kemayoran">
+                                <img src="<?= $basePath; ?>assets/images/bem/proker-cki-cares-3.png" alt="CKI Cares - Open Donasi Kebakaran Kemayoran">
+                                <img class="proker-image" src="../assets/images/bem/cki-cares-kemayoran-1.jpg" alt="CKI Cares - Open Donasi Kebakaran Kemayoran">
+                                <img class="proker-image" src="../assets/images/bem/cki-cares-kemayoran-2.jpg" alt="CKI Cares - Open Donasi Kebakaran Kemayoran">
+                                <img src="../assets/images/bem/cki-cares-kemayoran-3.jpg" alt="CKI Cares - Open Donasi Kebakaran Kemayoran">
+                            </div>
+                        </div>
                     </div>
                     <!-- PROKER | STIKOM COLLABORATION --><hr>
                     <div class="proker">
@@ -195,6 +203,7 @@ include "../includes/navbar.php";
             </div>
         </div>
     </main>
+
     <?php include "../includes/footer.php"; ?>
 </body>
 </html>

@@ -98,7 +98,6 @@ footer .foot-copy p > b {
     font-weight: 500;
 }
 
-
 /* RESPONSIVE BREAKPOINTS */
 @media (max-width: 576px) {
     footer {
@@ -128,5 +127,8 @@ footer .foot-copy p > b {
     /* FOOTER COPY */
     footer .foot-copy {
         text-align: center;
+    }
+    .timeline-footer {
+        display: none;
     }
 }
