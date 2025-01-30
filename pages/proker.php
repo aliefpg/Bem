@@ -1,31 +1,4 @@
 <?php 
-<<<<<<< HEAD
-$title = "Sambutan - BEM STIKOM CKI";
-include '../meta.php';
-include "../includes/navbar.php";
-?>
-<<<<<<<< HEAD:pages/proker.php
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Program Kerja - <?= $titlebar; ?></title>
-    <link rel="icon" href="<?= $basePath; ?>assets/images/ico/favicon.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="<?= $basePath; ?>assets/css/proker.css">
-    <script src="https://kit.fontawesome.com/98721b54aa.js" crossorigin="anonymous"></script>
-</head>
-========
-
->>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8:pages/sambutan.php
-<body>
-
-    <div class="breadcrumbs">
-        <p><a href="<?= $basePath; ?>index.php">Home</a></p>
-=======
 $title = "Program Kerja - BEM STIKOM CKI";
 include '../meta.php';
 include "../includes/navbar.php";
@@ -35,25 +8,18 @@ include "../includes/navbar.php";
     <div class="breadcrumbs">
         <!-- <p><a href="<?= $basePath; ?>index.php">Home</a></p> -->
         <p class="breadcrumbs-active">Home</a></p>
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         <span>|</span>
         <p class="breadcrumbs-active">Tentang</p>
         <span>|</span>
         <p class="breadcrumbs-active">Program Kerja</p>
     </div>
 
-<<<<<<< HEAD
-<<<<<<<< HEAD:pages/proker.php
-    <main>
-========
     <header>
         <h1>Sambutan dari Presiden dan Wakil Presiden Mahasiswa STIKOM CKI Kabinet Dharma Satvavira Dialektika</h1>
         <p>Kamis, 20 Novemer 2024</p>
     </header>
 
     <main class="sambutan-main">
->>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8:pages/sambutan.php
-=======
     <main class="proker-main">
     <div class="left">
             <!-- VISI & MISI -->
@@ -187,7 +153,6 @@ include "../includes/navbar.php";
                                 <img class="proker-image" src="<?= $basePath; ?>assets/images/bem/proker-seminar-it.jpg" alt="Seminar IT">
                                 <img class="proker-image" src="<?= $basePath; ?>assets/images/bem/proker-seminar-it-bem.jpg" alt="Seminar IT">
                             </div>
-<<<<<<< HEAD
                             <!-- PROGRAM KERJA | DONOR DARAH -->
                             <div class="collab">
                                 <h2>Donor Darah</h2>
@@ -197,8 +162,6 @@ include "../includes/navbar.php";
                                 </div>
                                 <img class="proker-image" src="<?= $basePath; ?>assets/images/bem/proker-donor-darah.png" alt="Donor Darah">
                             </div>
-=======
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
                             <!-- PROGRAM KERJA | STUDI BANDING -->
                             <div class="collab">
                                 <h2>Studi Banding</h2>
@@ -219,8 +182,6 @@ include "../includes/navbar.php";
                                 </p>
                                 <img class="proker-image" src="<?= $basePath; ?>assets/images/bem/proker-studi-banding.jpg" alt="Studi Banding">
                             </div>
-<<<<<<< HEAD
-=======
                             <!-- PROGRAM KERJA | DONOR DARAH -->
                             <div class="collab">
                                 <h2>Donor Darah</h2>
@@ -230,7 +191,6 @@ include "../includes/navbar.php";
                                 </div>
                                 <img class="proker-image" src="<?= $basePath; ?>assets/images/bem/proker-donor-darah.png" alt="Donor Darah">
                             </div>
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
                             <!-- PROGRAM KERJA | BAZAR RAMADHAN -->
                             <div class="collab">
                                 <h2>Bazar Ramdahan</h2>
@@ -246,10 +206,6 @@ include "../includes/navbar.php";
             </div>
         </div>
         <div class="right">
-<<<<<<< HEAD
-<<<<<<<< HEAD:pages/proker.php
-=======
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
             <div class="sticky">
                 <div class="content">
                     <p>
@@ -259,8 +215,6 @@ include "../includes/navbar.php";
                     </p>
                     <a href="https://wa.me/6282247963895" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
                 </div>
-<<<<<<< HEAD
-========
             <div class="content">
                 <p>
                     Ada undangan, kolaborasi, atau urusan penting sama BEM?
@@ -268,12 +222,9 @@ include "../includes/navbar.php";
                     Langsung aja hubungi Humas!
                 </p>
                 <a href="https://wa.me/6282247963895" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
->>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8:pages/sambutan.php
             </div>
         </div>
     </main>
-
-=======
             </div>
         </div>
     </main>
