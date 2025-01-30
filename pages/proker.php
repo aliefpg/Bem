@@ -1,7 +1,10 @@
 <?php 
-$titlebar = "BEM STIKOM CKI " . date("Y");
-$basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
+<<<<<<< HEAD
+$title = "Sambutan - BEM STIKOM CKI";
+include '../meta.php';
+include "../includes/navbar.php";
 ?>
+<<<<<<<< HEAD:pages/proker.php
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,18 +18,44 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
     <link rel="stylesheet" href="<?= $basePath; ?>assets/css/proker.css">
     <script src="https://kit.fontawesome.com/98721b54aa.js" crossorigin="anonymous"></script>
 </head>
+========
+
+>>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8:pages/sambutan.php
 <body>
-    <?php include "../includes/navbar.php"; ?>
 
     <div class="breadcrumbs">
         <p><a href="<?= $basePath; ?>index.php">Home</a></p>
+=======
+$title = "Program Kerja - BEM STIKOM CKI";
+include '../meta.php';
+include "../includes/navbar.php";
+?>
+
+<body>
+    <div class="breadcrumbs">
+        <!-- <p><a href="<?= $basePath; ?>index.php">Home</a></p> -->
+        <p class="breadcrumbs-active">Home</a></p>
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         <span>|</span>
         <p class="breadcrumbs-active">Tentang</p>
         <span>|</span>
         <p class="breadcrumbs-active">Program Kerja</p>
     </div>
 
+<<<<<<< HEAD
+<<<<<<<< HEAD:pages/proker.php
     <main>
+========
+    <header>
+        <h1>Sambutan dari Presiden dan Wakil Presiden Mahasiswa STIKOM CKI Kabinet Dharma Satvavira Dialektika</h1>
+        <p>Kamis, 20 Novemer 2024</p>
+    </header>
+
+    <main class="sambutan-main">
+>>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8:pages/sambutan.php
+=======
+    <main class="proker-main">
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         <div class="left">
             <!-- VISI & MISI -->
             <div class="content">
@@ -151,6 +180,7 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
                                 <img class="proker-image" src="<?= $basePath; ?>assets/images/bem/proker-seminar-it.jpg" alt="Seminar IT">
                                 <img class="proker-image" src="<?= $basePath; ?>assets/images/bem/proker-seminar-it-bem.jpg" alt="Seminar IT">
                             </div>
+<<<<<<< HEAD
                             <!-- PROGRAM KERJA | DONOR DARAH -->
                             <div class="collab">
                                 <h2>Donor Darah</h2>
@@ -160,6 +190,8 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
                                 </div>
                                 <img class="proker-image" src="<?= $basePath; ?>assets/images/bem/proker-donor-darah.png" alt="Donor Darah">
                             </div>
+=======
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
                             <!-- PROGRAM KERJA | STUDI BANDING -->
                             <div class="collab">
                                 <h2>Studi Banding</h2>
@@ -180,6 +212,18 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
                                 </p>
                                 <img class="proker-image" src="<?= $basePath; ?>assets/images/bem/proker-studi-banding.jpg" alt="Studi Banding">
                             </div>
+<<<<<<< HEAD
+=======
+                            <!-- PROGRAM KERJA | DONOR DARAH -->
+                            <div class="collab">
+                                <h2>Donor Darah</h2>
+                                <div class="proker-tags">
+                                    <strong>STIKOM Collaboration</strong>
+                                    <strong class="sub-proker">Donor Darah</strong>
+                                </div>
+                                <img class="proker-image" src="<?= $basePath; ?>assets/images/bem/proker-donor-darah.png" alt="Donor Darah">
+                            </div>
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
                             <!-- PROGRAM KERJA | BAZAR RAMADHAN -->
                             <div class="collab">
                                 <h2>Bazar Ramdahan</h2>
@@ -195,6 +239,10 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
             </div>
         </div>
         <div class="right">
+<<<<<<< HEAD
+<<<<<<<< HEAD:pages/proker.php
+=======
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
             <div class="sticky">
                 <div class="content">
                     <p>
@@ -204,10 +252,25 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
                     </p>
                     <a href="https://wa.me/6282247963895" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
                 </div>
+<<<<<<< HEAD
+========
+            <div class="content">
+                <p>
+                    Ada undangan, kolaborasi, atau urusan penting sama BEM?
+                    <br>
+                    Langsung aja hubungi Humas!
+                </p>
+                <a href="https://wa.me/6282247963895" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+>>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8:pages/sambutan.php
             </div>
         </div>
     </main>
 
+=======
+            </div>
+        </div>
+    </main>
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     <?php include "../includes/footer.php"; ?>
 </body>
 </html>

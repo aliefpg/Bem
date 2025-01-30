@@ -1,4 +1,5 @@
 <?php 
+<<<<<<< HEAD
 $titlebar = "BEM STIKOM CKI " . date("Y");
 $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
 ?>
@@ -18,11 +19,22 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
 <body>
     <?php include "../includes/navbar.php"; ?>
 
+=======
+$title = "Tentang - BEM STIKOM CKI";
+include '../meta.php';
+include "../includes/navbar.php";
+?>
+
+<body>
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     <header>
         <h1>Sambutan dari Presiden dan Wakil Presiden Mahasiswa STIKOM CKI Kabinet Dharma Satvavira Dialektika</h1>
         <p>Kamis, 20 Novemer 2024</p>
     </header>
+<<<<<<< HEAD
 
     <?php include "../includes/footer.php"; ?>
+=======
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
 </body>
 </html>

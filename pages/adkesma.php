@@ -1,4 +1,5 @@
 <?php 
+<<<<<<< HEAD
 $titlebar = "BEM STIKOM CKI " . date("Y");
 $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
 ?>
@@ -17,6 +18,14 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
 </head>
 <body>
     <?php include "../includes/navbar.php"; ?>
+=======
+$title = "Program Kerja - BEM STIKOM CKI";
+include '../meta.php';
+include "../includes/navbar.php";
+?>
+
+<body>
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
 
     <div class="breadcrumbs">
         <p><a href="<?= $basePath; ?>index.php">Home</a></p>
@@ -26,7 +35,11 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
         <p class="breadcrumbs-active">Adkesma</p>
     </div>
 
+<<<<<<< HEAD
     <main>
+=======
+<main class="kemen-main">
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         <div class="left">
             <!-- KEMENTERIAN -->
             <div class="content" id="kementerian">
@@ -141,6 +154,10 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
         </div>
     </main>
 
+<<<<<<< HEAD
     <?php include "../includes/footer.php"; ?>
 </body>
 </html>
+=======
+    <?php include "../includes/footer.php"; ?>
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8

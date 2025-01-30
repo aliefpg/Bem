@@ -1,4 +1,5 @@
 <?php 
+<<<<<<< HEAD
 $titlebar = "BEM STIKOM CKI " . date("Y");
 $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
 ?>
@@ -19,6 +20,15 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
     <?php include "../includes/navbar.php"; ?>
 
     <div class="breadcrumbs">
+=======
+$title = "Program Kerja - BEM STIKOM CKI";
+include '../meta.php';
+include "../includes/navbar.php";
+?>
+
+<body>
+<div class="breadcrumbs">
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         <p><a href="<?= $basePath; ?>index.php">Home</a></p>
         <span>|</span>
         <p class="breadcrumbs-active">Tentang</p>
@@ -26,7 +36,11 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
         <p class="breadcrumbs-active">Sekretaris</p>
     </div>
 
+<<<<<<< HEAD
     <main>
+=======
+    <main class="kemen-main">
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         <div class="left">
             <!-- KEMENTERIAN -->
             <div class="content" id="kementerian">

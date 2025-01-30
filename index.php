@@ -1,7 +1,9 @@
 <?php 
-$titlebar = "BEM STIKOM CKI " . date("Y");
-$basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
+$title = "Home - BEM STIKOM CKI";
+include './meta.php';
+include "includes/navbar.php";
 ?>
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,6 +22,12 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
 
     <header>
         <h1>
+=======
+
+<body>
+<header>
+<h1>
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
             Selamat Datang,<br>
             <span>
                 Website BEM STIKOM CKI <br>
@@ -29,7 +37,11 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
         <img src="assets/images/bem/raker.png" alt="BEM STIKOM CKI 2024/2025">
     </header>
 
+<<<<<<< HEAD
     <main>
+=======
+    <main class="index-main">
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         <div class="jumbotron">
             <div class="jumbotron-image">
                 <img src="assets/images/ketuwakil/rajabowo.png" alt="Presiden dan Wakil Presiden Mahasiswa BEM STIKOM CKI">
@@ -112,7 +124,10 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
             </div>
         </div>
     </main>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     <?php include "includes/footer.php"; ?>
 </body>
 </html>

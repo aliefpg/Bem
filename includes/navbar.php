@@ -30,17 +30,29 @@ $titlebar = "BEM STIKOM CKI " . date("Y");
                 </ul>
             </ul>
             <ul class="nav-dropdown">
+<<<<<<< HEAD
                 <li><a href="<?= $basePath; ?>pages/strukturorganisasi.php" class="nav-d">Struktur Organisasi<svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#000000"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg></a></li>
+=======
+                <li><a href="#" class="nav-d">Struktur Organisasi<svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#000000"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg></a></li>
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
                 <ul class="nav-dropdown-content">
                     <li><a href="<?= $basePath; ?>pages/sekretaris.php">Sekretaris</a></li>
                     <li><a href="<?= $basePath; ?>pages/bendahara.php">Bendahara</a></li>
                     <li><a href="<?= $basePath; ?>pages/humas.php">Humas</a></li>
                     <li><a href="<?= $basePath; ?>pages/adkesma.php">Adkesma</a></li>
+<<<<<<< HEAD
                     <li><a href="<?= $basePath; ?>pages/kominfo.php">Kominfo</a></li>
                     <li><a href="<?= $basePath; ?>pages/regionalukm.php">Regional UKM</a></li>
                 </ul>
             </ul>
             <li><a href="<?= $basePath; ?>pages/kegiatan.php">Kegiatan</a></li>
+=======
+                    <li><a href="<?= $basePath; ?>pages/depkominfo.php">Kominfo</a></li>
+                    <li><a href="<?= $basePath; ?>pages/regionalukm.php">Regional UKM</a></li>
+                </ul>
+            </ul>
+            <li><a href="<?= $basePath; ?>pages/Timeline.php">Kegiatan</a></li>
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         </ul>
         <!-- CHECKBOX FOR SIDEBAR -->
         <input type="checkbox" name="sidebar-active" id="sidebar-active">
@@ -73,12 +85,18 @@ $titlebar = "BEM STIKOM CKI " . date("Y");
                         <li><a href="<?= $basePath; ?>pages/bendahara.php">Bendahara</a></li>
                         <li><a href="<?= $basePath; ?>pages/humas.php">Humas</a></li>
                         <li><a href="<?= $basePath; ?>pages/adkesma.php">Adkesma</a></li>
+<<<<<<< HEAD
                         <li><a href="<?= $basePath; ?>pages/kominfo.php">Kominfo</a></li>
                         <li><a href="<?= $basePath; ?>pages/regionalukm.php">Regional UKM</a></li>
                     </ul>
                 </ul>
                 <li><a href="<?= $basePath; ?>pages/kegiatan.php">Kegiatan</a></li>
             </ul>
+=======
+                        <li><a href="<?= $basePath; ?>pages/depkominfo.php">Kominfo</a></li>
+                        <li><a href="<?= $basePath; ?>pages/regionalukm.php">Regional UKM</a></li>
+                    </ul>
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         </div>
         <!-- CLOSE SIDEBAR -->
         <label for="sidebar-active" id="overlay"></label>

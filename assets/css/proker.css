@@ -55,32 +55,85 @@ svg {
 }
 
 .breadcrumbs-active {
+<<<<<<< HEAD
+<<<<<<<< HEAD:assets/css/proker.css
+    cursor: default;
+    color: #A1A2AB;
+========
+    cursor: pointer;
+    color: #A1A2AB;
+}
+
+/* HEADER */
+header {
+    padding: 1rem 1.5rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+}
+
+header h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 500;
+    line-height: 1;
+}
+
+header p {
+    color: #AAAAAA;
+>>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8:assets/css/sambutan.css
+}
+
+/* MAIN */
+.sambutan-main {
+=======
     cursor: default;
     color: #A1A2AB;
 }
 
 /* MAIN */
-main {
+.proker-main {
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     margin: 2rem;
     display: flex;
     gap: 2rem;
 }
 
-main hr {
+<<<<<<< HEAD
+.sambutan-main hr {
+=======
+.proker-main hr {
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     border: none;
     border-top: 1px solid #E1E2EB;
 }
 
 /* MAIN | LEFT */
-main .left {
+<<<<<<< HEAD
+.sambutan-main .left {
+=======
+.proker-main .left {
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     width: 70%;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
+<<<<<<< HEAD
+<<<<<<<< HEAD:assets/css/proker.css
 main .left .content {
     padding: 2rem;
+========
+.sambutan-main .left .content {
+    padding: 1rem 1.5rem;
+>>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8:assets/css/sambutan.css
+=======
+.proker-main .left .content {
+    padding: 2rem;
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -89,31 +142,63 @@ main .left .content {
     border-radius: 1rem;
 }
 
+<<<<<<< HEAD
+<<<<<<<< HEAD:assets/css/proker.css
 main .left .content h2 {
+=======
+.proker-main .left .content h2 {
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     font-size: clamp(1.6rem, 5vw, 2rem);
     font-weight: 500;
     line-height: 1;
 }
+<<<<<<< HEAD
 main .left .content h3 {
+    font-size: clamp(1.4rem, 5vw, 1.6rem);
+    font-weight: 500;
+    line-height: 1;
+========
+.sambutan-main .left .content h2 {
+    font-size: clamp(1.6rem, 5vw, 2rem);
+    font-weight: 500;
+    line-height: 1;
+>>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8:assets/css/sambutan.css
+}
+
+.sambutan-main .left .content img {
+=======
+.proker-main .left .content h3 {
     font-size: clamp(1.4rem, 5vw, 1.6rem);
     font-weight: 500;
     line-height: 1;
 }
 
-main .left .content img {
+.proker-main .left .content img {
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     width: 40%;
     background-color: #4A1B31;
     border-radius: 1rem;
 }
-main .left .content img.proker-image {
+<<<<<<< HEAD
+.sambutan-main .left .content img.proker-image {
     width: 100%;
 }
 main .left .content img.proker-border {
+=======
+.proker-main .left .content img.proker-image {
+    width: 100%;
+}
+.proker-main .left .content img.proker-border {
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     border: 1px solid #4A1B31;
     box-shadow: 2.5px 2.5px 0 0 #4A1B31;
 }
 
-main .left .content strong {
+<<<<<<< HEAD
+.sambutan-main .left .content strong {
+=======
+.proker-main .left .content strong {
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     display: inline-block;
     padding: .2rem 1.2rem;
     font-weight: normal;
@@ -121,7 +206,11 @@ main .left .content strong {
     border: 1.4px solid var(--peach);
     border-radius: 100px;
 }
-main .left .content strong.terlaksana {
+<<<<<<< HEAD
+.sambutan-main .left .content strong.terlaksana {
+=======
+.proker-main .left .content strong.terlaksana {
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     display: inline-block;
     padding: .2rem 1.2rem;
     font-weight: normal;
@@ -129,7 +218,11 @@ main .left .content strong.terlaksana {
     border: 1.4px solid #00D000;
     border-radius: 100px;
 }
-main .left .content strong.sub-proker {
+<<<<<<< HEAD
+.sambutan-main .left .content strong.sub-proker {
+=======
+.proker-main .left .content strong.sub-proker {
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     display: inline-block;
     padding: .2rem 1.2rem;
     font-weight: normal;
@@ -137,64 +230,112 @@ main .left .content strong.sub-proker {
     border: 1.4px solid var(--light-peach);
     border-radius: 100px;
 }
+<<<<<<< HEAD
 main .left .content b {
     font-weight: 600;
 }
 
-main .left .content .content-text {
+.sambutan-main .left .content .content-text {
+=======
+.proker-main .left .content b {
+    font-weight: 600;
+}
+
+.proker-main .left .content .content-text {
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-main .left .content .content-text th {
+<<<<<<< HEAD
+.sambutan-main .left .content .content-text th {
+=======
+.proker-main .left .content .content-text th {
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     padding: 5px;
     color: var(--peach);
     vertical-align: top;
 }
-main .left .content .content-text td {
+<<<<<<< HEAD
+.sambutan-main .left .content .content-text td {
     padding: 5px;
 }
 
-main .left .content .proker-wrap {
+.sambutan-main .left .content .proker-wrap {
+=======
+.proker-main .left .content .content-text td {
+    padding: 5px;
+}
+
+.proker-main .left .content .proker-wrap {
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     display: flex;
     flex-direction: column;
     gap: 3rem;
 }
 
-main .left .content .proker-wrap .proker {
+<<<<<<< HEAD
+.sambutan-main .left .content .proker-wrap .proker {
+=======
+.proker-main .left .content .proker-wrap .proker {
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
 }
 
-main .left .content .proker-wrap .proker-collab {
+<<<<<<< HEAD
+.sambutan-main .left .content .proker-wrap .proker-collab {
+=======
+.proker-main .left .content .proker-wrap .proker-collab {
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     display: flex;
     flex-direction: column;
     gap: 3rem;
 }
 
-main .left .content .proker-wrap .proker-collab .collab {
+<<<<<<< HEAD
+.sambutan-main .left .content .proker-wrap .proker-collab .collab {
+=======
+.proker-main .left .content .proker-wrap .proker-collab .collab {
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
 /* MAIN | RIGHT */
-main .right {
+<<<<<<< HEAD
+.sambutan-main .right {
+=======
+.proker-main .right {
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     width: 30%;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
+<<<<<<< HEAD
+<<<<<<<< HEAD:assets/css/proker.css
 main .right .sticky {
+=======
+.proker-main .right .sticky {
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     top: 7rem;
     position: sticky;
 }
 
+<<<<<<< HEAD
 main .right .content {
+========
+.sambutan-main .right .content {
+>>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8:assets/css/sambutan.css
+=======
+.proker-main .right .content {
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     padding: 2rem 1.5rem;
     display: flex;
     flex-direction: column;
@@ -204,17 +345,35 @@ main .right .content {
     border-radius: 1rem;
 }
 
+<<<<<<< HEAD
+<<<<<<<< HEAD:assets/css/proker.css
 main .right .content p {
     color: var(--light-peach);
 }
 
 main .right .content a {
+========
+.sambutan-main .right .content p {
+    color: var(--light-peach);
+}
+
+.sambutan-main .right .content a {
+>>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8:assets/css/sambutan.css
+=======
+.proker-main .right .content p {
+    color: var(--light-peach);
+}
+
+.proker-main .right .content a {
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     padding: 4px 1rem;
     color: #F1F2FB;
     background-color: #FFB79266;
     border-radius: 100px;
     transition: .2s ease-in-out;
 }
+<<<<<<< HEAD
+<<<<<<<< HEAD:assets/css/proker.css
 main .right .content a:hover {
     color: #4A1B31;
     background-color: var(--light-peach);
@@ -224,6 +383,28 @@ main .right .content a:hover > i {
 }
 
 main .right .content i {
+========
+.sambutan-main .right .content a:hover {
+    color: #4A1B31;
+    background-color: var(--light-peach);
+}
+.sambutan-main .right .content a:hover > i {
+    color: #4A1B31;
+}
+
+.sambutan-main .right .content i {
+>>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8:assets/css/sambutan.css
+=======
+.proker-main .right .content a:hover {
+    color: #4A1B31;
+    background-color: var(--light-peach);
+}
+.proker-main .right .content a:hover > i {
+    color: #4A1B31;
+}
+
+.proker-main .right .content i {
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     color: #F1F2FB;
     transition: .2s ease-in-out;
 }
@@ -233,6 +414,13 @@ main .right .content i {
     /* BREADCRUMBS */
     .breadcrumbs {
         padding: .5rem .4rem;
+<<<<<<< HEAD
+<<<<<<<< HEAD:assets/css/proker.css
+========
+        margin: 10px;
+>>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8:assets/css/sambutan.css
+=======
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         display: flex;
         gap: .4rem;
     }
@@ -242,7 +430,11 @@ main .right .content i {
     }
 
     /* MAIN */
+<<<<<<< HEAD
     main {
+=======
+    .proker-main {
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         margin: 2rem 1rem;
         display: flex;
         gap: 2rem;
@@ -250,15 +442,25 @@ main .right .content i {
     }
 
     /* MAIN | LEFT */
+<<<<<<< HEAD
     main .left {
         width: 100%;
     }
 
     main .left .content {
+=======
+    .proker-main .left {
+        width: 100%;
+    }
+
+    .proker-main .left .content {
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         padding: 1rem;
         border-radius: .5rem;
     }
 
+<<<<<<< HEAD
+<<<<<<<< HEAD:assets/css/proker.css
     main .left .content img {
         width: 100%;
     }
@@ -268,26 +470,89 @@ main .right .content i {
     }
 
     main .left .content .proker-wrap {
+========
+    /* MAIN */
+    .sambutan-main {
+        margin: 10px;
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    /* MAIN | LEFT */
+    .sambutan-main .left {
+        width: 100%;
+    }
+
+    .sambutan-main .left .content {
+        border-radius: .5rem;
+    }
+
+    .sambutan-main .left .content img {
+        width: 100%;
+    }
+
+    .sambutan-main .left .content strong.sub-proker {
+        margin: .3rem 0;
+    }
+
+    .sambutan-main .left .content .proker-wrap {
+>>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8:assets/css/sambutan.css
+=======
+    .proker-main .left .content img {
+        width: 100%;
+    }
+
+    .proker-main .left .content strong.sub-proker {
+        margin: .3rem 0;
+    }
+
+    .proker-main .left .content .proker-wrap {
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         display: flex;
         flex-direction: column;
         gap: 2rem;
     }
 
     /* MAIN | RIGHT */
+<<<<<<< HEAD
+<<<<<<<< HEAD:assets/css/proker.css
     main .right {
+========
+    .sambutan-main .right {
+>>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8:assets/css/sambutan.css
+=======
+    .proker-main .right {
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         width: 100%;
         display: flex;
         flex-direction: column;
         gap: 1rem;
     }
 
+<<<<<<< HEAD
+<<<<<<<< HEAD:assets/css/proker.css
     main .right .content {
+========
+    .sambutan-main .right .content {
+>>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8:assets/css/sambutan.css
+=======
+    .proker-main .right .content {
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         border-radius: .5rem;
     }
 }
 
 @media (min-width: 576px) {
+<<<<<<< HEAD
+<<<<<<<< HEAD:assets/css/proker.css
     main .left .content strong.sub-proker {
+========
+    .sambutan-main .left .content strong.sub-proker {
+>>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8:assets/css/sambutan.css
+=======
+    .proker-main .left .content strong.sub-proker {
+>>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         margin: .3rem 0;
     }
 }
