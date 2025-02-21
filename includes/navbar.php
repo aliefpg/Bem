@@ -73,11 +73,10 @@ $titlebar = "BEM STIKOM CKI " . date("Y");
                         <li><a href="<?= $basePath; ?>pages/bendahara.php">Bendahara</a></li>
                         <li><a href="<?= $basePath; ?>pages/humas.php">Humas</a></li>
                         <li><a href="<?= $basePath; ?>pages/adkesma.php">Adkesma</a></li>
-                        <li><a href="<?= $basePath; ?>pages/kominfo.php">Kominfo</a></li>
+                        <li><a href="<?= $basePath; ?>pages/depkominfo.php">Kominfo</a></li>
                         <li><a href="<?= $basePath; ?>pages/regionalukm.php">Regional UKM</a></li>
                     </ul>
                 </ul>
-                <li><a href="<?= $basePath; ?>pages/kegiatan.php">Kegiatan</a></li>
             </ul>
         </div>
         <!-- CLOSE SIDEBAR -->

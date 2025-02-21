@@ -1,32 +1,10 @@
 <?php 
-<<<<<<< HEAD
-$titlebar = "BEM STIKOM CKI " . date("Y");
-$basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Filosofi Logo - <?= $titlebar; ?></title>
-    <link rel="icon" href="<?= $basePath; ?>assets/images/ico/favicon.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/css/filosofi.css">
-    <script src="https://kit.fontawesome.com/98721b54aa.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <?php include "../includes/navbar.php"; ?>
-
-=======
 $title = "Filosofi - BEM STIKOM CKI";
 include '../meta.php';
 include "../includes/navbar.php";
 ?>
 
 <body>
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     <div class="breadcrumbs">
         <p><a href="<?= $basePath; ?>index.php">Home</a></p>
         <span>|</span>
@@ -35,11 +13,7 @@ include "../includes/navbar.php";
         <p class="breadcrumbs-active">Filosofi Logo</p>
     </div>
 
-<<<<<<< HEAD
-    <main>
-=======
     <main class="filosofi-main">
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         <div class="left">
             <!-- FILOSOFI LOGO -->
             <div class="content">
@@ -148,10 +122,6 @@ include "../includes/navbar.php";
             </div>
         </div>
     </main>
-<<<<<<< HEAD
-
-=======
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     <?php include "../includes/footer.php"; ?>
 </body>
 </html>

@@ -64,11 +64,7 @@ header img {
 
 /* MAIN */
 /* MAIN | JUMBOTRON */
-<<<<<<< HEAD
-main .jumbotron {
-=======
 .index-main .jumbotron {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,78 +72,47 @@ main .jumbotron {
     background: linear-gradient(to right, royalblue, royalblue, royalblue, royalblue, skyblue);
 }
 
-<<<<<<< HEAD
-main .jumbotron img {
-=======
 .index-main .jumbotron img {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     width: 18rem;
     opacity: .9;
 }
 
-<<<<<<< HEAD
-main .jumbotron .jumbotron-text {
-=======
 .index-main .jumbotron .jumbotron-text {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-<<<<<<< HEAD
-main .jumbotron .jumbotron-text h2 {
-=======
 .index-main .jumbotron .jumbotron-text h2 {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     font-size: clamp(1.5rem, 5vw, 3rem);
     font-weight: 500;
     line-height: 1;
     color: #FFFFFF;
 }
 
-<<<<<<< HEAD
-main .jumbotron .jumbotron-text a {
-=======
 .index-main .jumbotron .jumbotron-text a {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     padding: 6px 2.6rem;
     color: white;
     border: 1px solid #FFFFFF;
     border-radius: 100px;
 }
-<<<<<<< HEAD
-main .jumbotron .jumbotron-text a:hover {
-=======
 .index-main .jumbotron .jumbotron-text a:hover {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     color: royalblue;
     background-color: #FFFFFF;
 }
 
 /* MAIN | SAMBUTAN */
-<<<<<<< HEAD
-main #sambutan {
-    scroll-margin-top: 110px;
-}
-main .sambutan-wrapper {
-=======
 .index-main #sambutan {
     scroll-margin-top: 110px;
 }
 .index-main .sambutan-wrapper {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     margin: 2rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-<<<<<<< HEAD
-main .sambutan-wrapper .sambutan {
-=======
 .index-main .sambutan-wrapper .sambutan {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     padding: 2rem;
     display: flex;
     align-items: flex-start;
@@ -156,11 +121,7 @@ main .sambutan-wrapper .sambutan {
     border-radius: 1rem;
 }
 
-<<<<<<< HEAD
-main .sambutan-wrapper .sambutan .sambutan-image {
-=======
 .index-main .sambutan-wrapper .sambutan .sambutan-image {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     padding: .5rem;
     display: flex;
     flex-direction: column;
@@ -170,31 +131,19 @@ main .sambutan-wrapper .sambutan .sambutan-image {
     border-radius: 1rem;
 }
 
-<<<<<<< HEAD
-main .sambutan-wrapper .sambutan .sambutan-image h2 {
-=======
 .index-main .sambutan-wrapper .sambutan .sambutan-image h2 {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     font-size: clamp(1.6rem, 5vw, 1rem);
     font-weight: 500;
     line-height: 1;
 }
 
-<<<<<<< HEAD
-main .sambutan-wrapper .sambutan .sambutan-image img {
-=======
 .index-main .sambutan-wrapper .sambutan .sambutan-image img {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     width: 20rem;
     background-color: #4A1B31;
     border-radius: .8rem;
 }
 
-<<<<<<< HEAD
-main .sambutan-wrapper .sambutan .sambutan-image strong {
-=======
 .index-main .sambutan-wrapper .sambutan .sambutan-image strong {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     display: inline-block;
     padding: .2rem 1.2rem;
     font-weight: normal;
@@ -203,11 +152,7 @@ main .sambutan-wrapper .sambutan .sambutan-image strong {
     border-radius: 100px;
 }
 
-<<<<<<< HEAD
-main .sambutan-wrapper .sambutan .sambutan-text {
-=======
 .index-main .sambutan-wrapper .sambutan .sambutan-text {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -215,11 +160,7 @@ main .sambutan-wrapper .sambutan .sambutan-text {
 }
 
 /* MAIN | KEMENTERIAN */
-<<<<<<< HEAD
-main .kementerian {
-=======
 .index-main .kementerian {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     padding: 2rem 10rem 4rem 10rem;
     margin: 2rem;
     display: flex;
@@ -229,56 +170,31 @@ main .kementerian {
     border-radius: 1rem;
 }
 
-<<<<<<< HEAD
-main .kementerian .kementerian-head {
-=======
 .index-main .kementerian .kementerian-head {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     display: flex;
     flex-direction: column;
     gap: 1rem;
     text-align: center;
 }
 
-<<<<<<< HEAD
-main .kementerian-head h2 {
-=======
 .index-main .kementerian-head h2 {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     font-weight: 500;
     font-size: clamp(2rem, 5vw, 3rem);
 }
 
-<<<<<<< HEAD
-main .kementerian .kementerian-divisi {
-=======
 .index-main .kementerian .kementerian-divisi {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
 }
 
-<<<<<<< HEAD
-main .kementerian .kementerian-divisi details {
-=======
 .index-main .kementerian .kementerian-divisi details {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     padding: 1rem 1.5rem;
     background-color: #F1F2FB;
     border-radius: 1rem;
     transition: .2s ease-in-out;
 
 }
-<<<<<<< HEAD
-main .kementerian .kementerian-divisi details[open] {
-    border-radius: 1.5rem;
-}
-main .kementerian .kementerian-divisi details[open] summary {
-    margin-bottom: 1rem;
-}
-main .kementerian .kementerian-divisi details[open] svg {
-=======
 .index-main .kementerian .kementerian-divisi details[open] {
     border-radius: 1.5rem;
 }
@@ -286,17 +202,12 @@ main .kementerian .kementerian-divisi details[open] svg {
     margin-bottom: 1rem;
 }
 .index-main .kementerian .kementerian-divisi details[open] svg {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     transform: rotate(-180deg);
     border-radius: 100px;
     box-shadow: -3px -3px 0 0 #E3E4ED;
 }
 
-<<<<<<< HEAD
-main .kementerian .kementerian-divisi details summary {
-=======
 .index-main .kementerian .kementerian-divisi details summary {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     cursor: pointer;
     display: flex;
     justify-content: space-between;
@@ -305,11 +216,7 @@ main .kementerian .kementerian-divisi details summary {
     transition: .2s ease-in-out;
 }
 
-<<<<<<< HEAD
-main .kementerian .kementerian-divisi details summary svg {
-=======
 .index-main .kementerian .kementerian-divisi details summary svg {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     transition: .2s ease-in-out;
 }
 
@@ -331,11 +238,7 @@ main .kementerian .kementerian-divisi details summary svg {
 
     /* MAIN */
     /* MAIN | JUMBOTRON */
-<<<<<<< HEAD
-    main .jumbotron {
-=======
     .index-main .jumbotron {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         padding-top: 1.5rem;
         margin: 2rem 0;
         display: flex;
@@ -343,30 +246,11 @@ main .kementerian .kementerian-divisi details summary svg {
         background: royalblue;
     }
 
-<<<<<<< HEAD
-    main .jumbotron .jumbotron-text {
-=======
     .index-main .jumbotron .jumbotron-text {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         order: 1;
         display: flex;
         gap: 1rem;
     }
-<<<<<<< HEAD
-    main .jumbotron .jumbotron-image {
-        order: 2;
-    }
-
-    main .jumbotron img {
-        width: 15rem;
-    }
-
-    main .jumbotron .jumbotron-text {
-        text-align: center;
-    }
-
-    main .jumbotron .jumbotron-text a {
-=======
     .index-main .jumbotron .jumbotron-image {
         order: 2;
     }
@@ -380,7 +264,6 @@ main .kementerian .kementerian-divisi details summary svg {
     }
 
     .index-main .jumbotron .jumbotron-text a {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         padding: 2px 1.5rem;
         color: white;
         border: 1px solid #FFFFFF;
@@ -388,22 +271,14 @@ main .kementerian .kementerian-divisi details summary svg {
     }
 
     /* MAIN | SAMBUTAN */
-<<<<<<< HEAD
-    main .sambutan-wrapper {
-=======
     .index-main .sambutan-wrapper {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         margin: 2rem 1rem;
         display: flex;
         flex-direction: column;
         gap: 2rem;
     }
 
-<<<<<<< HEAD
-    main .sambutan-wrapper .sambutan {
-=======
     .index-main .sambutan-wrapper .sambutan {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         padding: 1rem;
         display: flex;
         flex-direction: column;
@@ -411,11 +286,7 @@ main .kementerian .kementerian-divisi details summary svg {
         border-radius: .5rem;
     }
 
-<<<<<<< HEAD
-    main .sambutan-wrapper .sambutan .sambutan-image {
-=======
     .index-main .sambutan-wrapper .sambutan .sambutan-image {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         padding: 0;
         padding-bottom: 1.5rem;
         background-color: transparent;
@@ -423,48 +294,28 @@ main .kementerian .kementerian-divisi details summary svg {
         border-radius: 0;
     }
 
-<<<<<<< HEAD
-    main .sambutan-wrapper .sambutan .sambutan-image img {
-=======
     .index-main .sambutan-wrapper .sambutan .sambutan-image img {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         width: 100%;
         border-radius: .8rem;
     }
 
     /* MAIN | KEMENTERIAN */
-<<<<<<< HEAD
-    main .kementerian {
-=======
     .index-main .kementerian {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         padding: 1rem 1rem 2rem 1rem;
         margin: 1rem;
         border-radius: .5rem;
     }
 
-<<<<<<< HEAD
-    main .kementerian .kementerian-head {
-=======
     .index-main .kementerian .kementerian-head {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         display: flex;
         gap: .5rem;
     }
 
-<<<<<<< HEAD
-    main .kementerian .kementerian-divisi details {
-        padding: .8rem 1rem;
-        border-radius: .5rem;
-    }
-    main .kementerian .kementerian-divisi details[open] {
-=======
     .index-main .kementerian .kementerian-divisi details {
         padding: .8rem 1rem;
         border-radius: .5rem;
     }
     .index-main .kementerian .kementerian-divisi details[open] {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         padding: .8rem 1rem;
         border-radius: 1rem;
     }

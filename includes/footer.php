@@ -39,11 +39,7 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
                 <a href="<?= $basePath; ?>pages/bendahara.php">Bendahhara</a>
                 <a href="<?= $basePath; ?>pages/humas.php">Humas</a>
                 <a href="<?= $basePath; ?>pages/adkesma.php">Adkesma</a>
-<<<<<<< HEAD
-                <a href="<?= $basePath; ?>pages/kominfo.php">Kominfo</a>
-=======
                 <a href="<?= $basePath; ?>pages/depkominfo.php">Kominfo</a>
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
                 <a href="<?= $basePath; ?>pages/regionalukm.php">Regional UKM</a>
             </div>
             <!-- FOOTER LAINNYA -->
@@ -51,7 +47,6 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
                 <h4>Lainnya</h4>
                 <a href="<?= $basePath; ?>pages/organisasi.php">Struktur Organisasi</a>
                 <a href="<?= $basePath; ?>pages/Timeline.php" class="timeline-footer">Kegiatan</a>
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
             </div>
             <!-- FOOTER SOCMED -->
             <div class="content foot-content-medsos">

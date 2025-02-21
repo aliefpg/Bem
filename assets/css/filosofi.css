@@ -60,42 +60,26 @@ svg {
 }
 
 /* MAIN */
-<<<<<<< HEAD
-main {
-=======
 .filosofi-main {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     margin: 2rem;
     display: flex;
     gap: 2rem;
 }
 
-<<<<<<< HEAD
-main hr {
-=======
 .filosofi-main hr {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     border: none;
     border-top: 1px solid #E1E2EB;
 }
 
 /* MAIN | LEFT */
-<<<<<<< HEAD
-main .left {
-=======
 .filosofi-main .left {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     width: 70%;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-<<<<<<< HEAD
-main .left .content {
-=======
 .filosofi-main .left .content {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -105,21 +89,13 @@ main .left .content {
     border-radius: 1rem;
 }
 
-<<<<<<< HEAD
-main .left .content h2 {
-=======
 .filosofi-main .left .content h2 {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     font-size: clamp(1.6rem, 5vw, 2rem);
     font-weight: 500;
     line-height: 1;
 }
 
-<<<<<<< HEAD
-main .left .content strong {
-=======
 .filosofi-main .left .content strong {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     display: inline-block;
     padding: .2rem 1.2rem;
     font-weight: normal;
@@ -128,17 +104,6 @@ main .left .content strong {
     border-radius: 100px;
 }
 
-<<<<<<< HEAD
-main .left .content img {
-    width: 15rem;
-    border-radius: 1rem;
-}
-main .left .content img.width-full {
-    width: 100%;
-}
-
-main .left .content .logo-wrap {
-=======
 .filosofi-main .left .content img {
     width: 15rem;
     border-radius: 1rem;
@@ -148,17 +113,12 @@ main .left .content .logo-wrap {
 }
 
 .filosofi-main .left .content .logo-wrap {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 }
 
-<<<<<<< HEAD
-main .left .content .logo-wrap .logo {
-=======
 .filosofi-main .left .content .logo-wrap .logo {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     padding: 1.5rem 2rem;
     display: flex;
     flex-direction: column;
@@ -168,69 +128,41 @@ main .left .content .logo-wrap .logo {
     border-radius: 1rem;
 }
 
-<<<<<<< HEAD
-main .left .content .nama-wrapper {
-=======
 .filosofi-main .left .content .nama-wrapper {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-<<<<<<< HEAD
-main .left .content .nama-wrapper .nama-logo .nama-logo-img {
-=======
 .filosofi-main .left .content .nama-wrapper .nama-logo .nama-logo-img {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     padding: 0 1.5rem;
     border: 1.5px solid #E1E2EB;
 }
 
-<<<<<<< HEAD
-main .left .content .nama-wrapper .nama-kabinet {
-=======
 .filosofi-main .left .content .nama-wrapper .nama-kabinet {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     padding: 1rem 0;
     border-bottom: 1.5px solid #E1E2EB;
 }
 
-<<<<<<< HEAD
-main .left .content .nama-wrapper .nama-kabinet .nama p {
-=======
 .filosofi-main .left .content .nama-wrapper .nama-kabinet .nama p {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     font-size: 1.25rem;
     font-weight: 500;
     color: var(--peach);
 }
 
-<<<<<<< HEAD
-main .left .content .logo-wrapper {
-=======
 .filosofi-main .left .content .logo-wrapper {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
 }
 
-<<<<<<< HEAD
-main .left .content .logo-wrapper .logo-warna {
-=======
 .filosofi-main .left .content .logo-wrapper .logo-warna {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     display: flex;
     gap: 2rem;
 }
 
-<<<<<<< HEAD
-main .left .content .logo-wrapper .logo-warna .warna {
-=======
 .filosofi-main .left .content .logo-wrapper .logo-warna .warna {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     width: 50%;
     padding: 2rem 1.5rem;
     display: flex;
@@ -241,40 +173,24 @@ main .left .content .logo-wrapper .logo-warna .warna {
     border-radius: 1rem;
 }
 
-<<<<<<< HEAD
-main .left .content .logo-wrapper .logo-warna .warna p {
-=======
 .filosofi-main .left .content .logo-wrapper .logo-warna .warna p {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     text-align: center;
 }
 
 /* MAIN | RIGHT */
-<<<<<<< HEAD
-main .right {
-=======
 .filosofi-main .right {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     width: 30%;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-<<<<<<< HEAD
-main .right .sticky {
-=======
 .filosofi-main .right .sticky {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     top: 7rem;
     position: sticky;
 }
 
-<<<<<<< HEAD
-main .right .content {
-=======
 .filosofi-main .right .content {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     padding: 2rem 1.5rem;
     display: flex;
     flex-direction: column;
@@ -284,36 +200,17 @@ main .right .content {
     border-radius: 1rem;
 }
 
-<<<<<<< HEAD
-main .right .content p {
-    color: var(--light-peach);
-}
-
-main .right .content a {
-=======
 .filosofi-main .right .content p {
     color: var(--light-peach);
 }
 
 .filosofi-main .right .content a {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     padding: 4px 1rem;
     color: #F1F2FB;
     background-color: #FFB79266;
     border-radius: 100px;
     transition: .2s ease-in-out;
 }
-<<<<<<< HEAD
-main .right .content a:hover {
-    color: #4A1B31;
-    background-color: var(--light-peach);
-}
-main .right .content a:hover > i {
-    color: #4A1B31;
-}
-
-main .right .content i {
-=======
 .filosofi-main .right .content a:hover {
     color: #4A1B31;
     background-color: var(--light-peach);
@@ -323,7 +220,6 @@ main .right .content i {
 }
 
 .filosofi-main .right .content i {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
     color: #F1F2FB;
     transition: .2s ease-in-out;
 }
@@ -342,11 +238,7 @@ main .right .content i {
     }
 
     /* MAIN */
-<<<<<<< HEAD
-    main {
-=======
     .filosofi-main {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         margin: 2rem 1rem;
         display: flex;
         gap: 2rem;
@@ -354,86 +246,50 @@ main .right .content i {
     }
 
     /* MAIN | LEFT */
-<<<<<<< HEAD
-    main .left {
-        width: 100%;
-    }
-
-    main .left .content {
-=======
     .filosofi-main .left {
         width: 100%;
     }
 
     .filosofi-main .left .content {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         padding: 1rem;
         display: flex;
         gap: 1rem;
         border-radius: .5rem;
     }
 
-<<<<<<< HEAD
-    main .left .content img {
-        width: 100%;
-    }
-
-    main .left .content .logo-wrap {
-=======
     .filosofi-main .left .content img {
         width: 100%;
     }
 
     .filosofi-main .left .content .logo-wrap {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
 
-<<<<<<< HEAD
-    main .left .content .nama-wrapper .nama-logo .nama-logo-img {
-        padding: 0 1rem;
-    }
-
-    main .left .content .logo-wrapper .logo-warna {
-=======
     .filosofi-main .left .content .nama-wrapper .nama-logo .nama-logo-img {
         padding: 0 1rem;
     }
 
     .filosofi-main .left .content .logo-wrapper .logo-warna {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         display: flex;
         flex-direction: column;
     }
 
-<<<<<<< HEAD
-    main .left .content .logo-wrapper .logo-warna .warna {
-=======
     .filosofi-main .left .content .logo-wrapper .logo-warna .warna {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         width: 100%;
         padding: 1.5rem 1rem;
         border-radius: .5rem;
     }
 
     /* MAIN | RIGHT */
-<<<<<<< HEAD
-    main .right {
-=======
     .filosofi-main .right {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         width: 100%;
         display: flex;
         flex-direction: column;
         gap: 1rem;
     }
 
-<<<<<<< HEAD
-    main .right .content {
-=======
     .filosofi-main .right .content {
->>>>>>> 52e15d3b8c17516e7cff08b145cb36f4d8a736c8
         border-radius: .5rem;
     }
 }

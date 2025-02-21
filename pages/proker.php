@@ -13,12 +13,6 @@ include "../includes/navbar.php";
         <span>|</span>
         <p class="breadcrumbs-active">Program Kerja</p>
     </div>
-
-    <header>
-        <h1>Sambutan dari Presiden dan Wakil Presiden Mahasiswa STIKOM CKI Kabinet Dharma Satvavira Dialektika</h1>
-        <p>Kamis, 20 Novemer 2024</p>
-    </header>
-
     <main class="sambutan-main">
     <main class="proker-main">
     <div class="left">
@@ -153,15 +147,6 @@ include "../includes/navbar.php";
                                 <img class="proker-image" src="<?= $basePath; ?>assets/images/bem/proker-seminar-it.jpg" alt="Seminar IT">
                                 <img class="proker-image" src="<?= $basePath; ?>assets/images/bem/proker-seminar-it-bem.jpg" alt="Seminar IT">
                             </div>
-                            <!-- PROGRAM KERJA | DONOR DARAH -->
-                            <div class="collab">
-                                <h2>Donor Darah</h2>
-                                <div class="proker-tags">
-                                    <strong>STIKOM Collaboration</strong>
-                                    <strong class="sub-proker">Donor Darah</strong>
-                                </div>
-                                <img class="proker-image" src="<?= $basePath; ?>assets/images/bem/proker-donor-darah.png" alt="Donor Darah">
-                            </div>
                             <!-- PROGRAM KERJA | STUDI BANDING -->
                             <div class="collab">
                                 <h2>Studi Banding</h2>
@@ -215,14 +200,6 @@ include "../includes/navbar.php";
                     </p>
                     <a href="https://wa.me/6282247963895" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
                 </div>
-            <div class="content">
-                <p>
-                    Ada undangan, kolaborasi, atau urusan penting sama BEM?
-                    <br>
-                    Langsung aja hubungi Humas!
-                </p>
-                <a href="https://wa.me/6282247963895" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            </div>
         </div>
     </main>
             </div>
